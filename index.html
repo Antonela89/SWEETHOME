@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Link -->
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="styleNav.css">
+    <link rel="stylesheet" href="styleHero.css">
+    <link rel="stylesheet" href="styleFooter.css">
+    <!-- Link -->
+
+    <title>SweetHome</title>
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <ul class="nav_ul"> 
+                <li>HOME</li>
+                <li>SOBRE NOSOTROS</li>
+                <li>SERVICIOS</li>
+                <li>CLIENTES</li>
+                <li>CONTACTO</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="heroContainer"> 
+            <div class="hero_img">
+                <img src="img/12.jpg" alt="">
+            </div>
+
+            <div class="hero_h1">
+                <h1>Hola! Somos SweetHome, una página dedicada a reunir a familias con nuevos integrantes.</h1>
+                <button id="demo" onmouseover="mouseOver()" onmouseout="mouseOut()"> 
+                    <a href="http://" target="blank" rel="noopener noreferrer" 
+                    id="demo1" onmouseover="mouseOver()" onmouseout="mouseOut()">
+                    ¡CONTACTANOS!
+                    </a>
+                </button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <p>2022 - Desarrollado por Antonela Borgogno</p>
+        </div>
+    </footer>
+
+    <script>
+        function mouseOver(){
+            document.getElementById("demo").style.backgroundColor = "white"
+            document.getElementById("demo1").style.color ="rgb(196, 117, 13)";
+        }
+
+        function mouseOut(){
+            document.getElementById("demo").style.backgroundColor = "rgb(196, 117, 13)";
+            document.getElementById("demo1").style.color = "white";
+        }
+    </script>
+</body>
+</html>
