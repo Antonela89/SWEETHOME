@@ -5,11 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- Link CSS-->
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/styleNav.css">
+    <link rel="stylesheet" href="./styles/styleHero.css">
+    <link rel="stylesheet" href="./styles/styleSobrenosotros.css">
+    <link rel="stylesheet" href="./styles/stylesMascotas.css">
+    <link rel="stylesheet" href="./styles/styleFooter.css">
     <!-- Link -->
-    <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="styleNav.css">
-    <link rel="stylesheet" href="styleHero.css">
-    <link rel="stylesheet" href="styleFooter.css">
+
+    <!-- Link Fuentes -->
+
     <!-- Link -->
 
     <title>SweetHome</title>
@@ -18,31 +24,73 @@
     <header>
         <nav class="nav">
             <ul class="nav_ul"> 
-                <li>HOME</li>
-                <li>SOBRE NOSOTROS</li>
-                <li>SERVICIOS</li>
-                <li>CLIENTES</li>
-                <li>CONTACTO</li>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#sobre_nosotros">SOBRE NOSOTROS</a></li>
+                <li><a href="./requisitos.html">SERVICIOS</a></li>
+                <li><a href="">CLIENTES</a></li>
+                <li><a href="./contacto.html">CONTACTO</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <div class="heroContainer"> 
-            <div class="hero_img">
-                <img src="img/12.jpg" alt="">
+        <section id=home> 
+            <div class="heroContainer">
+                <div class="hero_img">
+                    <img src="img/12.jpg" alt="">
+                </div>
+                <div class="hero_h1">
+                    <h1>Hola! Somos SweetHome, una página dedicada a reunir a familias con nuevos integrantes.</h1>
+                        <a href="http://" target="blank" rel="noopener noreferrer"
+                        id="demo" onmouseover="mouseOver()" onmouseout="mouseOut()">
+                        ¡CONTACTANOS!
+                        </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre_nosotros">
+            <div>
+                <div class="h2">
+                    <h2>sobre nosotros</h2>
+                </div>
+            
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos quod ex numquam nobis laborum, recusandae corporis autem. Cupiditate nostrum eos, sit possimus, a soluta consequuntur dolores saepe animi, ipsa cumque.</p>
+            </div>
+        </section>
+
+        <section id=mascotas>
+            <div class="h2">
+                <h2>nuestras mascotas</h2>
             </div>
 
-            <div class="hero_h1">
-                <h1>Hola! Somos SweetHome, una página dedicada a reunir a familias con nuevos integrantes.</h1>
-                <button id="demo" onmouseover="mouseOver()" onmouseout="mouseOut()"> 
-                    <a href="http://" target="blank" rel="noopener noreferrer" 
-                    id="demo1" onmouseover="mouseOver()" onmouseout="mouseOut()">
-                    ¡CONTACTANOS!
-                    </a>
-                </button>
+            <div>
+                <div id="img">
+                    <img src="./img/22.jpg" alt="">
+                    <img src="./img/07.jpg" alt="">
+                    <img src="./img/16.jpg" alt="">
+                    <img src="./img/11.jpg" alt="">
+                </div>
+                <div id="img2">
+                    <div>
+                        <h3>Milo</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse aliquid praesentium dolor aliquam soluta modi rerum dicta odio facere minus eum commodi blanditiis porro ab dolorum quasi rem, a pariatur.</p>
+                    </div>
+                    <div>
+                        <h3>Beto</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis asperiores voluptate earum praesentium nobis nemo ut blanditiis repellat quo veniam. Recusandae rem eveniet, at optio deserunt deleniti reiciendis eos cupiditate.</p>
+                    </div>
+                    <div>
+                        <h3>Miles</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et nulla, ipsam velit consequatur necessitatibus nemo labore illum architecto perspiciatis illo, corporis, totam reiciendis perferendis exercitationem quisquam odit veritatis nam expedita?</p>
+                    </div>
+                    <div>
+                        <h3>Tito</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea sunt aperiam facilis optio eos id necessitatibus aspernatur culpa iusto impedit dolor eius, ad fugiat, quidem nisi minus et? Ex, magnam?</p>
+                    </div>
+                </div>
             </div>
-        </div>
+        </section>
     </main>
 
     <footer>
@@ -53,13 +101,13 @@
 
     <script>
         function mouseOver(){
-            document.getElementById("demo").style.backgroundColor = "white"
-            document.getElementById("demo1").style.color ="rgb(196, 117, 13)";
+            document.getElementById("demo").style.color ="rgb(196, 117, 13)";
+            document.getElementById("demo").style.background ="white";
         }
 
         function mouseOut(){
-            document.getElementById("demo").style.backgroundColor = "rgb(196, 117, 13)";
-            document.getElementById("demo1").style.color = "white";
+            document.getElementById("demo").style.color = "white";
+            document.getElementById("demo").style.background ="rgb(196, 117, 13)";
         }
     </script>
 </body>

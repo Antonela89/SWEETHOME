@@ -32,18 +32,13 @@
     text-align: center;
 }
 
-.heroContainer .hero_h1 button{
-    background-color: transparent;
-    border: none;
+.heroContainer .hero_h1 a{
+    text-decoration: none;
+    color: white;
     border: 1px solid white;
     padding: 10px 20px;
     color: inherit;
     transition: 0.5s;
     cursor: pointer;
-}
-
-.heroContainer .hero_h1 button a{
-    text-decoration: none;
-    color: white;
 }
 

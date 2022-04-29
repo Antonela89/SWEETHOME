@@ -1,0 +1,64 @@
+#mascotas .h2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(196, 117, 13)
+}
+
+#mascotas .h2 h2{
+    width: 50%;
+    text-transform: uppercase;
+    padding: 20px;
+    border-bottom: 1px solid white;
+    text-align: center;
+    color: white;
+}
+#mascotas div{
+    position: relative;
+}
+
+#mascotas div #img{
+    width: 100%;
+    height: 30vw;
+    display: flex;
+    position: relative;
+    bottom: 0;
+    z-index: inner 2;
+}
+
+#mascotas div #img img{
+    width: 25%;
+    object-fit: cover;
+}
+
+#mascotas div #img img:hover{
+    opacity: 0;
+}
+
+#mascotas div #img2{
+    width: 100%;
+    height: 30vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(196, 117, 13);
+    color: white;
+    position: relative;
+    bottom: 0;
+    z-index: index 1;
+}
+
+#mascotas div #img2 div{
+    width: 25%;
+}
+
+#mascotas div #img2 div h3{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#mascotas div #img2 div p{
+    text-align: center;
+    padding: 0px 20px;
+}
