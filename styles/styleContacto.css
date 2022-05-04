@@ -4,50 +4,88 @@
     display: flex;
     background-color: rgb(196, 117, 13);
     color: white;
+    border-bottom: 5px solid white;
 }
 
 .formulario{
     width: 50%;
+    height: 100%;
+    position: relative;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    border: 5px solid white;;
 }
 
 .formulario form{
-    width: 100%;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 20px;
 }
 
-.formulario .h2{
+.formulario form label{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.formulario form input{ 
+    background-color:transparent;
+    border: none;
+    height: 20px;
+    width: 200px;
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+.formulario form input[type=checkbox]{
+    width: inherit;
+    margin: 0px 20px;
+}
+
+.formulario form textarea{
+    background-color: transparent;
+    border-color:white ;
+    color: inherit;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.container .formulario .h2, .container .ubicacion .h2{
     width: 50%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; 
+}
+
+.container .formulario .h2 h2, .container .ubicacion .h2 h2{
+    width: 100%;
     text-transform: uppercase;
     border-bottom: 1px solid white;
-    
+    padding-bottom: 20px;
+    text-align: center; 
 }
 
-.formulario
-
-.formulario form .campos{
-    text-align:left;
-}
-
-.formulario form .container2{
+.ubicacion{
     width: 50%;
-}
-.img{
-    width: 100%;
+    height: 100%;
+    position: relative;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    position: relative;
-    object-fit: cover;
+    border: 5px solid white;
 }
 
+.ubicacion .iframe{
+    width: 80%;
+    z-index: 1;
+}
+
+.ubicacion .datos p span{
+    font-weight: bolder;
+    text-transform: uppercase;
+}
 
 
