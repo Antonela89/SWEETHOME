@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./styles/stylesBarraredes.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <div class="redes"> 
+        <div>
+            <img src="./img/whatsapp.png" alt="" id="demo" onmouseover="mouseOver()" onmouseout="mouseOut()">
+            <p id="demoR">whatsapp</p>
+        </div>
+        <div>
+            <img src="./img/gorjeo.png" alt="" id="demo" onmouseover="mouseOver()" onmouseout="mouseOut()">
+            <p id="demoR">twitter</p>
+        </div>
+        <div>
+            <img src="./img/facebook.png" alt="" id="demo" onmouseover="mouseOver()" onmouseout="mouseOut()">
+            <p id="demoR">facebook</p>
+        </div>
+        <div>
+            <img src="./img/instagram.png" alt="" id="demo" onmouseover="mouseOver()" onmouseout="mouseOut()">
+            <p id="demoR">instagram</p>
+        </div>
+        <div>
+            <img src="./img/mensajero.png" alt="" id="demo" onmouseover="mouseOver()" onmouseout="mouseOut()">
+            <p id="demoR">messenger</p>
+        </div>
+    </div>
+
+    <script>
+        function mouseOver(){
+            document.getElementById("demoR").style.left="-120px";
+        }
+
+        function mouseOut(){
+            document.getElementById("demoR").style.left="100px";
+        }
+    </script>
+</body>
+</html>

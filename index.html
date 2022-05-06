@@ -8,6 +8,7 @@
     <!-- Link CSS-->
     <link rel="stylesheet" href="./styles/normalize.css">
     <link rel="stylesheet" href="./styles/styleNav.css">
+    <link rel="stylesheet" href="./styles/stylesBarraredes.css">
     <link rel="stylesheet" href="./styles/styleHero.css">
     <link rel="stylesheet" href="./styles/styleSobrenosotros.css">
     <link rel="stylesheet" href="./styles/stylesMascotas.css">
@@ -21,7 +22,7 @@
     <!-- Link -->
 
     <!-- Link Favicon-->
-    <link rel="shortcut icon" href="./favicon1.jpg" type="image/jpg">
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
     <!-- Link -->
 
     <title>SweetHome</title>
@@ -33,13 +34,36 @@
                 <li><a href="#home">HOME</a></li>
                 <li><a href="#sobre_nosotros">SOBRE NOSOTROS</a></li>
                 <li><a href="./historias.html">HISTORIAS</a></li>
-                <li><a href="./requisitos.html">SERVICIOS</a></li>
+                <li><a href="./servicios.html">SERVICIOS</a></li>
                 <li><a href="./contacto.html">CONTACTO</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
+        <div class="redes"> 
+            <div>
+                <img src="./img/whatsapp.png" alt="" id="demo" onmouseover="mouseArriba()" onmouseout="mouseFuera()">
+                <p id="demoR">whatsapp</p>
+            </div>
+            <div>
+                <img src="./img/gorjeo.png" alt="" id="demo" onmouseover="mouseArriba()" onmouseout="mouseFuera()">
+                <p id="demoR">twitter</p>
+            </div>
+            <div>
+                <img src="./img/facebook.png" alt="" id="demo" onmouseover="mouseArriba()" onmouseout="mouseFuera()">
+                <p id="demoR">facebook</p>
+            </div>
+            <div>
+                <img src="./img/instagram.png" alt="" id="demo" onmouseover="mouseArriba()" onmouseout="mouseFuera()">
+                <p id="demoR">instagram</p>
+            </div>
+            <div>
+                <img src="./img/mensajero.png" alt="" id="demo" onmouseover="mouseArriba()" onmouseout="mouseFuera()">
+                <p id="demoR">messenger</p>
+            </div>
+        </div>
+    
         <section id=home> 
             <div class="heroContainer">
                 <div class="hero_img">
@@ -104,6 +128,16 @@
             <p>2022 - Desarrollado por Antonela Borgogno</p>
         </div>
     </footer>
+
+    <script>
+        function mouseArriba(){
+            document.getElementById("demoR").style.left="-130px";
+        }
+
+        function mouseFuera(){
+            document.getElementById("demoR").style.left="100px";
+        }
+    </script>
 
     <script>
         function mouseOver(){
