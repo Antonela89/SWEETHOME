@@ -8,6 +8,7 @@
     <!-- Link CSS-->
     <link rel="stylesheet" href="./styles/normalize.css">
     <link rel="stylesheet" href="./styles/styleNav.css">
+    <link rel="stylesheet" href="./styles/stylesBarraredes.css">
     <link rel="stylesheet" href="./styles/styleContacto.css">
     <link rel="stylesheet" href="./styles/styleFooter.css">
     <!-- Link -->
@@ -31,13 +32,36 @@
                 <li><a href="./index.html#home">HOME</a></li>
                 <li><a href="./index.html#sobre_nosotros">SOBRE NOSOTROS</a></li>
                 <li><a href="./historias.html">HISTORIAS</a></li>
-                <li><a href="./servicios.html">SERVICIOS</a></li>
+                <li><a href="./ayudanos.html">AYUDANOS</a></li>
                 <li><a href="./contacto.html">CONTACTO</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
+        <div class="redes"> 
+            <div>
+                <img src="./img/whatsapp.png" alt="" onmouseover="mouseOver()" onmouseout="mouseOut()">
+                <p id="demoR">whatsapp</p>
+            </div>
+            <div>
+                <img src="./img/gorjeo.png" alt="" onmouseover="mouseOver()" onmouseout="mouseOut()">
+                <p id="demoR1">twitter</p>
+            </div>
+            <div>
+                <img src="./img/facebook.png" alt="" onmouseover="mouseOver()" onmouseout="mouseOut()">
+                <p id="demoR2">facebook</p>
+            </div>
+            <div>
+                <img src="./img/instagram.png" alt="" onmouseover="mouseOver()" onmouseout="mouseOut()">
+                <p id="demoR3">instagram</p>
+            </div>
+            <div>
+                <img src="./img/mensajero.png" alt="" onmouseover="mouseOver()" onmouseout="mouseOut()">
+                <p id="demoR4">messenger</p>
+            </div>
+        </div>
+
         <section class="container">
             <div class="formulario">
                 <div class="h2">
@@ -89,5 +113,47 @@
             <p>2022 - Desarrollado por Antonela Borgogno</p>
         </div>
     </footer>
+
+    <script>
+        function mouseArriba(){
+            document.getElementById("demoR").style.left="-130px";
+        }
+
+        function mouseFuera(){
+            document.getElementById("demoR").style.left="100px";
+        }
+
+        function mouseArriba(){
+            document.getElementById("demoR1").style.left="-130px";
+        }
+
+        function mouseFuera(){
+            document.getElementById("demoR1").style.left="100px";
+        }
+
+        function mouseArriba(){
+            document.getElementById("demoR2").style.left="-130px";
+        }
+
+        function mouseFuera(){
+            document.getElementById("demoR2").style.left="100px";
+        }
+
+        function mouseArriba(){
+            document.getElementById("demoR3").style.left="-130px";
+        }
+
+        function mouseFuera(){
+            document.getElementById("demoR3").style.left="100px";
+        }
+
+        function mouseArriba(){
+            document.getElementById("demoR4").style.left="-130px";
+        }
+
+        function mouseFuera(){
+            document.getElementById("demoR4").style.left="100px";
+        }
+    </script>
 </body>
 </html>
