@@ -1,0 +1,140 @@
+.donacion{
+    width: 100%;
+    position: relative;
+}
+
+.donacion .banner{
+    width: 100%;
+    height: 45vw;
+    background-color: rgb(196, 117, 13);
+    position: relative;
+}
+
+.donacion .banner img{
+    width: 100%;
+    height: 35vw;
+    object-fit: cover;
+
+}
+
+.donacion .banner div{
+    width: 100%;
+    background-color: rgb(196, 117, 13);
+    position: relative;
+
+}
+
+.donacion .banner  div h1{
+    text-transform: uppercase;
+    font-size: 60px;
+    text-align: center;
+    padding: 10px 0px;
+    margin: 0px;
+}
+
+.donacion .datos{
+    width: 100%;
+    height: 250px;
+    background-color: rgb(196, 117, 13);
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.donacion .datos .numero{
+    width: 215px;
+    height: 221px;
+    padding: 0;
+    flex-direction: row;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.donacion .datos .numero div{
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.donacion .datos .numero div h1{
+    font-size: 80px;
+    margin: 0;
+}
+
+.donacion .datos .numero .descripcion{
+    flex-direction: row;
+    background-color: inherit;
+    margin: 20px;
+}
+
+.donacion .datos .numero .descripcion img{
+    width: 50px;
+    height: 50px;
+}
+
+.donacion .datos .numero .descripcion p{
+    font-size: 25px;
+    margin: 10px;
+}
+
+.donacion .informacion{
+    width: 100%;
+    height: 35vw;
+    display: flex;
+}
+
+.donacion .informacion .img{
+    width: 100%;
+    height: 35vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 3;
+}
+
+.donacion .informacion .img div{
+    justify-content: center;
+    align-items: center;
+}
+
+.donacion .informacion .img div img{
+    width: 100%;
+    height: 35vw;
+    object-fit:cover;
+}
+
+.donacion .informacion .img div img:hover{
+    opacity: 0;
+}
+.donacion .informacion .requisitos{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.donacion .informacion .requisitos .ul{
+    width: 100%;
+    position: relative;
+}
+
+.donacion .informacion .requisitos .ul ul{
+    width: 90%;
+    margin-left: 30px;
+    list-style-type: square;
+    font-size: 25px
+}
+
+.donacion .informacion .requisitos .ul ul h3{
+    width: 100%;
+    text-transform: uppercase;
+    margin: 0;
+    text-align: center;
+}
+
+
+

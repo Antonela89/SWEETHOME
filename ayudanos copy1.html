@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Link CSS-->
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/styleNav.css">
+    <link rel="stylesheet" href="./styles/stylesBarraredes.css">
+    <link rel="stylesheet" href="./styles/stylesAyudanos copy1.css">
+    <link rel="stylesheet" href="./styles/styleFooter.css">
+    <!-- Link -->
+
+    <!-- Link Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+    <!-- Link -->
+
+    <!-- Link Favicon-->
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <!-- Link -->
+
+    <title>SweetHome-Ayudanos</title>
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <ul class="nav_ul"> 
+                <li><a href="./index.html#home">HOME</a></li>
+                <li><a href="./index.html#sobre_nosotros">SOBRE NOSOTROS</a></li>
+                <li><a href="./historias.html">HISTORIAS</a></li>
+                <li><a href="./ayudanos.html">AYUDANOS</a></li>
+                <li><a href="./contacto.html">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="redes"> 
+            <div>
+                <img src="./img/whatsapp.png" alt="" onmouseover="mouseArriba()" onmouseout="mouseFuera()">
+                <p id="demoR">whatsapp</p>
+            </div>
+            <div>
+                <img src="./img/gorjeo.png" alt="" onmouseover="mouseArriba()" onmouseout="mouseFuera()">
+                <p id="demoR1">twitter</p>
+            </div>
+            <div>
+                <img src="./img/facebook.png" alt="" onmouseover="mouseArriba()" onmouseout="mouseFuera()">
+                <p id="demoR2">facebook</p>
+            </div>
+            <div>
+                <img src="./img/instagram.png" alt="" onmouseover="mouseArriba()" onmouseout="mouseFuera()">
+                <p id="demoR3">instagram</p>
+            </div>
+            <div>
+                <img src="./img/mensajero.png" alt="" onmouseover="mouseArriba()" onmouseout="mouseFuera()">
+                <p id="demoR4">messenger</p>
+            </div>
+        </div>
+
+        <div class="donacion">
+            <div class="banner">
+                <img src="./img/Cuidado-mascotas.jpg" alt="">
+                <div>
+                    <h1>vos haces la diferencia</h1>
+                </div>
+            </div>
+
+            <div class="datos">
+                    <div class="numero">
+                        <div>
+                            <h1>130</h1>
+                        </div>
+
+                            <div class="descripcion">
+                                <img src="./img/grupo-de-personas.png" alt="">
+                                <p>voluntarios</p>
+                            </div>
+                    </div>
+
+                    <div class="numero">
+                        <div>
+                            <h1>260</h1>
+                        </div>
+                        <div class="descripcion">
+                            <img src="./img/cuidado-animal.png" alt="">
+                            <p>animales rescatados</p>
+                        </div>
+                    </div>
+
+                    <div class="numero">
+                        <div>
+                            <h1>180</h1>
+                        </div>
+                        <div class="descripcion">
+                            <img src="./img/refugio-de-animales.png" alt="">
+                            <p>animales adoptados</p>
+                        </div>
+                    </div>
+            </div>
+
+            <div class="informacion">
+                <div  class="img">
+                    <div>
+                        <img src="./img/R.jfif" alt="">
+                    </div>
+                        
+                    <div>
+                        <img src="./img/img_mrius_20200218-123523_imagenes_lv_terceros_ayudar_perrera_4-kQyC--656x432@LaVanguardia-Web.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="requisitos">
+                    <div class="ul">
+                        <ul>
+                            <h3>requisitos para adopción</h3>
+                            <li>Ser mayor de 21 años</li>
+                            <li>Presentar D.N.I.</li>
+                            <li>Residir en la ciudad o en un radio no mayor a 20km.</li>
+                            <li>Cumplir con los compromisos y obligaciones detallados en el <span> Contrato de Adopción Responsable. </li>
+                            <li>Continuar el <span>Plan de Salud y Cuidados </span>iniciado por SweetHome.</li>
+                        </ul>
+                    </div>
+
+                    <div class="ul">
+                        <ul>
+                            <h3>datos bancarios</h3>
+                            <li>Caja de Ahorros Nº 0823/01112394/17</li>
+                            <li>CBU Nº 0150823701000112391297</li>
+                            <li>Banco Nación</li>
+                            <li>Titular: ASOCIACION SWEETHOME</li>
+                            <li>CUIT: 30-67420579-8</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <p>2022 - Desarrollado por Antonela Borgogno</p>
+        </div>
+    </footer>
+
+    <script>
+        function mouseArriba(){
+            document.getElementById("demoR").style.left="-130px";
+        }
+
+        function mouseFuera(){
+            document.getElementById("demoR").style.left="100px";
+        }
+
+        function mouseArriba(){
+            document.getElementById("demoR1").style.left="-130px";
+        }
+
+        function mouseFuera(){
+            document.getElementById("demoR1").style.left="100px";
+        }
+
+        function mouseArriba(){
+            document.getElementById("demoR2").style.left="-130px";
+        }
+
+        function mouseFuera(){
+            document.getElementById("demoR2").style.left="100px";
+        }
+
+        function mouseArriba(){
+            document.getElementById("demoR3").style.left="-130px";
+        }
+
+        function mouseFuera(){
+            document.getElementById("demoR3").style.left="100px";
+        }
+
+        function mouseArriba(){
+            document.getElementById("demoR4").style.left="-130px";
+        }
+
+        function mouseFuera(){
+            document.getElementById("demoR4").style.left="100px";
+        }
+    </script>
+</body>
+</html>
