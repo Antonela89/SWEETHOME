@@ -21,6 +21,7 @@
 .redes div p{
     text-transform: capitalize;
     margin: 15px;
+    padding: 5px;
     position: relative;
     left: 100px;
 }

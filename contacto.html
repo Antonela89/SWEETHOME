@@ -41,53 +41,57 @@
     <main>
         <div class="redes"> 
             <div>
-                <img src="./img/whatsapp.png" alt="" onmouseover="mouseOver()" onmouseout="mouseOut()">
+                <img src="./img/whatsapp.png" alt="" class="imagen">
                 <p id="demoR">whatsapp</p>
             </div>
             <div>
-                <img src="./img/gorjeo.png" alt="" onmouseover="mouseOver()" onmouseout="mouseOut()">
+                <img src="./img/gorjeo.png" alt="" class="imagen">
                 <p id="demoR1">twitter</p>
             </div>
             <div>
-                <img src="./img/facebook.png" alt="" onmouseover="mouseOver()" onmouseout="mouseOut()">
+                <img src="./img/facebook.png" alt="" class="imagen">
                 <p id="demoR2">facebook</p>
             </div>
             <div>
-                <img src="./img/instagram.png" alt="" onmouseover="mouseOver()" onmouseout="mouseOut()">
+                <img src="./img/instagram.png" alt="" class="imagen">
                 <p id="demoR3">instagram</p>
             </div>
             <div>
-                <img src="./img/mensajero.png" alt="" onmouseover="mouseOver()" onmouseout="mouseOut()">
+                <img src="./img/mensajero.png" alt="" class="imagen">
                 <p id="demoR4">messenger</p>
             </div>
         </div>
 
         <section class="container">
             <div class="formulario">
-                <div class="h2">
-                        <h2>Escribenos</h2>
-                </div>
-                
-                <form action="" method="post" name="form">    
-                    <label for="Nombre">Nombre:</label>
-                    <input type="text" id="Nomnbre" name="Nombre">
-                    <label for="Apellido">Apellido:</label>
-                    <input type="text" id="Apellido" name="Apellido">
-                    <label for="Edad">Edad:</label>
-                    <input type="number" id="Edad" name="Edad">
-                    <label for="Telefono">Teléfono:</label>
-                    <input type="number" id="Telefono" name="Telefono">
-                    <label for="Email">E-mail:</label>
-                    <input type="email" id="Email" name="Email">
-                    <p>Elija el tipo de mascota que desea adoptar</p>
-                    <div>
-                        <label for="Gato">Gato</label>
-                        <input type="checkbox" name="Mascota" id="Gato">
-                        <label for="Perro">Perro</label>
-                        <input type="checkbox" name="Mascota" id="Perro">
+                <div class="texto">
+                    <div class="h2">
+                            <h2>Escribenos</h2>
                     </div>
-                    <textarea name="" id="" cols="60" rows="4">Escriba aquí caracterísitcas de la mascota</textarea>
-                </form>
+                    <form action="" method="post" name="form">
+                        <label for="Nombre">Nombre:</label>
+                        <input type="text" id="Nomnbre" name="Nombre">
+                        <label for="Apellido">Apellido:</label>
+                        <input type="text" id="Apellido" name="Apellido">
+                        <label for="Edad">Edad:</label>
+                        <input type="number" id="Edad" name="Edad">
+                        <label for="Telefono">Teléfono:</label>
+                        <input type="number" id="Telefono" name="Telefono">
+                        <label for="Email">E-mail:</label>
+                        <input type="email" id="Email" name="Email">
+                        <p>Elija el tipo de mascota que desea adoptar</p>
+                        <div>
+                            <label for="Gato">Gato</label>
+                            <input type="checkbox" name="Mascota" id="Gato">
+                            <label for="Perro">Perro</label>
+                            <input type="checkbox" name="Mascota" id="Perro">
+                        </div>
+                        <textarea name="" id="" cols="60" rows="4">Escriba aquí caracterísitcas de la mascota</textarea>
+                    </form>
+                </div>
+                <div class ="flecha">
+                    <img src="./img/iconos/enviar/001-submit.png" alt="">
+                </div>
             </div>
 
         <div class="ubicacion">
@@ -114,46 +118,6 @@
         </div>
     </footer>
 
-    <script>
-        function mouseArriba(){
-            document.getElementById("demoR").style.left="-130px";
-        }
-
-        function mouseFuera(){
-            document.getElementById("demoR").style.left="100px";
-        }
-
-        function mouseArriba(){
-            document.getElementById("demoR1").style.left="-130px";
-        }
-
-        function mouseFuera(){
-            document.getElementById("demoR1").style.left="100px";
-        }
-
-        function mouseArriba(){
-            document.getElementById("demoR2").style.left="-130px";
-        }
-
-        function mouseFuera(){
-            document.getElementById("demoR2").style.left="100px";
-        }
-
-        function mouseArriba(){
-            document.getElementById("demoR3").style.left="-130px";
-        }
-
-        function mouseFuera(){
-            document.getElementById("demoR3").style.left="100px";
-        }
-
-        function mouseArriba(){
-            document.getElementById("demoR4").style.left="-130px";
-        }
-
-        function mouseFuera(){
-            document.getElementById("demoR4").style.left="100px";
-        }
-    </script>
+    <script src="./js/barraRedes.js"></script>
 </body>
 </html>

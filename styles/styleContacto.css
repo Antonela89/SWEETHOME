@@ -7,30 +7,35 @@
     border-bottom: 5px solid white;
 }
 
-.formulario{
+.container .formulario{
     width: 50%;
     height: 100%;
     position: relative;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     border: 5px solid white;
 }
 
-.formulario form{
+.container .formulario .texto{
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.container .formulario .texto form{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
 }
 
-.formulario form label{
+.container .formulario .texto form label{
     margin-top: 20px;
     font-size: 20px;
 }
 
-.formulario form input{ 
+.container .formulario .texto form input{ 
     background-color:transparent;
     border: none;
     height: 20px;
@@ -39,12 +44,12 @@
     color: white;
 }
 
-.formulario form input[type=checkbox]{
+.container .formulario .texto form input[type=checkbox]{
     width: inherit;
     margin: 0px 20px;
 }
 
-.formulario form textarea{
+.container .formulario .texto form textarea{
     background-color: transparent;
     border-color:white ;
     color: inherit;
@@ -52,22 +57,33 @@
     text-align: center;
 }
 
-.container .formulario .h2, .container .ubicacion .h2{
-    width: 50%;
+.container .formulario .flecha {
+    width: 15%;
     display: flex;
-    align-items: center;
-    justify-content: center; 
 }
 
-.container .formulario .h2 h2, .container .ubicacion .h2 h2{
+.container .formulario .flecha img {
+    width: 70px;
+    height: 70px;
+    justify-content: center;
+    position: relative;
+    bottom: 0px;
+}
+
+.container .formulario .texto .h2, .container .ubicacion .h2{
+    width: 50%;
+    align-items: center;
+    justify-items: center;
+}
+
+.container .formulario .texto .h2 h2, .container .ubicacion .h2 h2{
     width: 100%;
     text-transform: uppercase;
     border-bottom: 1px solid white;
-    padding-bottom: 20px;
     text-align: center; 
 }
 
-.ubicacion{
+.container .ubicacion{
     width: 50%;
     height: 100%;
     position: relative;
@@ -78,12 +94,12 @@
     border: 5px solid white;
 }
 
-.ubicacion .iframe{
+.container .ubicacion .iframe{
     width: 80%;
     z-index: 1;
 }
 
-.ubicacion .datos p span{
+.container .ubicacion .datos p span{
     font-weight: bolder;
     text-transform: uppercase;
 }

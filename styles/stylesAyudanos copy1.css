@@ -50,6 +50,8 @@
     text-align: center;
 }
 
+/* Seccion lista de imagenes*/
+
 .donacion .datos .numero div{
     background-color: white;
     border-radius: 30px;
@@ -79,6 +81,38 @@
     margin: 10px;
 }
 
+.img_container2{
+    width: 100%;
+    background-color: white;
+    position: relative;
+}
+
+.img_container2 .fila_imagenes2{
+    width: 100%;
+    height: 25vw;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 1;
+}
+
+.img_container2 .fila_imagenes2 img{
+    width: 20%;
+    height: 20vw;
+    object-fit: cover;
+    border-radius: 45px;
+}
+
+.img_container2 .fondo2{
+    width: 100%;
+    height: 25vw;
+    display: flex;
+    z-index: 0;
+}
+
+/* Seccion datos para donacion y adopcion*/
+
 .donacion .informacion{
     width: 100%;
     height: 35vw;
@@ -96,14 +130,18 @@
 }
 
 .donacion .informacion .img div{
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .donacion .informacion .img div img{
-    width: 100%;
-    height: 35vw;
+    width: 90%;
+    height: 30vw;
+    border-radius: 45px;
     object-fit:cover;
+    justify-content: center;
+    align-items: center;
 }
 
 .donacion .informacion .img div img:hover{
@@ -111,6 +149,7 @@
 }
 .donacion .informacion .requisitos{
     width: 100%;
+    background-color: rgb(196, 117, 13);
     position: relative;
     display: flex;
     justify-content: center;
@@ -123,17 +162,16 @@
 }
 
 .donacion .informacion .requisitos .ul ul{
-    width: 90%;
-    margin-left: 30px;
+    width: 80%;
+    margin-left: 60px;
     list-style-type: square;
-    font-size: 25px
+    font-size: 20px
 }
 
 .donacion .informacion .requisitos .ul ul h3{
     width: 100%;
     text-transform: uppercase;
     margin: 0;
-    text-align: center;
 }
 
 
