@@ -121,3 +121,27 @@
     display: flex;
     z-index: 0;
 }
+
+.Imagen_1 {
+    width:100%;
+    position: absolute;
+    z-index: 10;
+}
+
+.Imagen_2{
+    width: 100%;
+    position: absolute;
+    z-index: 9;
+}
+
+.Imagen_3{
+    width: 100%;
+    position: absolute;
+    z-index: 8;
+}
+
+.Imagen_4{
+    width: 100%;
+    position: absolute;
+    z-index: 7;
+}
