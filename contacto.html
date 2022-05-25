@@ -68,11 +68,11 @@
                     <div class="h2">
                             <h2>Escribenos</h2>
                     </div>
-                    <form action="" method="post" name="form">
+                    <form method="get" name="form" id="form">
                         <label for="Nombre">Nombre:</label>
-                        <input type="text" id="Nomnbre" name="Nombre">
+                        <input type="text" id="nombre" class="texto" name="nombreYapellido">
                         <label for="Apellido">Apellido:</label>
-                        <input type="text" id="Apellido" name="Apellido">
+                        <input type="text" id="apellido" class="texto" name="nombreYapellido">
                         <label for="Edad">Edad:</label>
                         <input type="number" id="Edad" name="Edad">
                         <label for="Telefono">Teléfono:</label>
@@ -86,11 +86,11 @@
                             <label for="Perro">Perro</label>
                             <input type="checkbox" name="Mascota" id="Perro">
                         </div>
-                        <textarea name="" id="" cols="60" rows="4">Escriba aquí caracterísitcas de la mascota</textarea>
+                        <textarea name="" id="" cols="60" rows="4">Escriba aquí características de la mascota</textarea>
                     </form>
                 </div>
                 <div class ="flecha">
-                    <img src="./img/iconos/enviar/001-submit.png" alt="">
+                    <img src="./img/iconos/enviar/001-submit.png" alt="" id="enviar">
                 </div>
             </div>
 
@@ -118,6 +118,7 @@
         </div>
     </footer>
 
-    <script src="./js/barraRedes.js"></script>
+    <script src = "js/index.js" type="module"></script>
+    <script src="./js/formulario.js"></script>
 </body>
 </html>
