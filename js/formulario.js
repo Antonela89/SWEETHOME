@@ -1,4 +1,4 @@
-const inputNombreYApellido = document.querySelectorAll('.texto');
+const inputNombreYApellido = document.querySelectorAll('.textoForm');
 const inputNombre = document.getElementById('nombre');
 const inputApellido = document.getElementById('apellido');
 const inputEdad = document.getElementById('Edad');
@@ -12,6 +12,8 @@ const validarEdad = /^100|[1-9]?\d$/;
 const validarTelefono = /^(?:(?:00)?549?)?0?(?:11|[2368]\d)(?:(?=\d{0,2}15)\d{2})??\d{8}$/;
 const validarMail = /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/;
 
+console.log(inputNombreYApellido);
+
 inputNombreYApellido.forEach(element => {
     element.addEventListener("keyup", (e)=> {
         if(validarNombreYApellido.test(e.target.value)) {
@@ -24,10 +26,7 @@ inputNombreYApellido.forEach(element => {
 
 
 inputEdad.addEventListener("keyup", (e)=> {
-    console.log(e.target.value);
-    console.log(validarEdad.test(e.target.value));
-
-    if(validarEdad.test(e.target.value)) {
+    if(e.target.value > 18 && e.target.value < 200) {
         e.target.style.borderBottom='2px solid green';
     } else {
         e.target.style.borderBottom='2px solid red';
@@ -50,6 +49,7 @@ inputMail.addEventListener ("keyup", (e)=> {
     console.log(validarMail.test(e.target.value));*/
 
     if(validarMail.test(e.target.value)) {
+        console.log(validarMail.test(e.target.value));
         e.target.style.borderBottom='2px solid green';
     } else {
         e.target.style.borderBottom='2x solid red';
