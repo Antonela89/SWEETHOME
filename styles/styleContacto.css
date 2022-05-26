@@ -70,6 +70,10 @@
     bottom: 0px;
 }
 
+.container .formulario .flecha img:hover {
+    cursor: pointer;
+}
+
 .container .formulario .texto .h2, .container .ubicacion .h2{
     width: 50%;
     align-items: center;

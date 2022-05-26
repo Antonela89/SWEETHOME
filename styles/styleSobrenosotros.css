@@ -29,3 +29,28 @@
     font-size: 25px;
     text-align: center;
 }
+
+/*diseño responsivo*/
+@media only screen and (max-width:600px){
+    #sobre_nosotros{
+        height: 60vh;
+    }
+    
+    #sobre_nosotros div{
+        width: 75%;
+    }
+
+    #sobre_nosotros div .h2{
+        width: 100%;
+    }
+
+    #sobre_nosotros div .h2 h2{
+        margin: 0px 0px;
+        font-size: 20px;
+    }
+
+    #sobre_nosotros div p{
+        font-size: 15px;
+    }
+
+}

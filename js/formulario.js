@@ -1,23 +1,19 @@
-const imputNombreYApellido = document.querySelectorAll('.texto');
-const imputNombre = document.getElementById('nombre');
-const imputApellido = document.getElementById('apellido');
-const imputEdad = document.getElementById('Edad');
-const imputTelefono = document.getElementById('Telefono');
-const imputMail = document.getElementById ('Email');
+const inputNombreYApellido = document.querySelectorAll('.texto');
+const inputNombre = document.getElementById('nombre');
+const inputApellido = document.getElementById('apellido');
+const inputEdad = document.getElementById('Edad');
+const inputTelefono = document.getElementById('Telefono');
+const inputMail = document.getElementById ('Email');
 const button = document.getElementById('enviar');
 const form = document.getElementById('form');
 
-
 const validarNombreYApellido = /^[a-z-]{3,16}$/i;
-const validarEdad = /^[0-9_-]{1,2}$/;
+const validarEdad = /^100|[1-9]?\d$/;
 const validarTelefono = /^(?:(?:00)?549?)?0?(?:11|[2368]\d)(?:(?=\d{0,2}15)\d{2})??\d{8}$/;
 const validarMail = /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/;
 
-imputNombreYApellido.forEach(element => {
+inputNombreYApellido.forEach(element => {
     element.addEventListener("keyup", (e)=> {
-        console.log(e.target.value);
-        console.log(validarNombreYApellido.test(e.target.value));
-
         if(validarNombreYApellido.test(e.target.value)) {
             e.target.style.borderBottom='2px solid green';
         } else {
@@ -26,7 +22,8 @@ imputNombreYApellido.forEach(element => {
     })
 })
 
-imputEdad.addEventListener ("keyup", (e)=> {
+
+inputEdad.addEventListener("keyup", (e)=> {
     console.log(e.target.value);
     console.log(validarEdad.test(e.target.value));
 
@@ -37,9 +34,9 @@ imputEdad.addEventListener ("keyup", (e)=> {
     } 
 })
 
-imputTelefono.addEventListener ("keyup", (e)=> {
-    console.log(e.target.value);
-    console.log(validarTelefono.test(e.target.value));
+inputTelefono.addEventListener ("keyup", (e)=> {
+    /*console.log(e.target.value);
+    console.log(validarTelefono.test(e.target.value));*/
 
     if(validarTelefono.test(e.target.value)) {
         e.target.style.borderBottom='2px solid green';
@@ -48,9 +45,9 @@ imputTelefono.addEventListener ("keyup", (e)=> {
     } 
 })
 
-imputMail.addEventListener ("keyup", (e)=> {
-    console.log(e.target.value);
-    console.log(validarMail.test(e.target.value));
+inputMail.addEventListener ("keyup", (e)=> {
+    /*console.log(e.target.value);
+    console.log(validarMail.test(e.target.value));*/
 
     if(validarMail.test(e.target.value)) {
         e.target.style.borderBottom='2px solid green';
@@ -60,6 +57,7 @@ imputMail.addEventListener ("keyup", (e)=> {
 })
 
 button.addEventListener('click', (e) => {
+    e.preventDefault();
     form.submit();
 
     if  ((validarNombreYApellido.test(e.target.value)) && (validarEdad.test(e.target.value)) &&
@@ -69,4 +67,4 @@ button.addEventListener('click', (e) => {
     } else {
         alert('Complete correctamente los campos');
     }
-});
+})

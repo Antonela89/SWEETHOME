@@ -62,3 +62,38 @@
     padding: 0px 20px;
     margin: 25px;
 }
+
+/*diseño responsivo*/
+@media only screen and (max-width:600px){
+    #mascotas .h2 h2{
+        font-size: 20px;
+        padding: 0px;
+    }
+
+    #mascotas div #img{
+        overflow: scroll;
+    }
+
+    #mascotas div #img img{
+        width: 50%;
+    }
+
+    #mascotas div #img2{
+    width: 100%;
+    }
+
+    #mascotas div #img2 div{
+        width: 50%;
+        height: 40vh;
+    }
+
+    #mascotas div #img2 div h3{
+        font-size: 15px;
+        margin: 1px;
+    }
+
+    #mascotas div #img2 div p{
+        font-size: 15px;
+        margin: 0px;
+    }
+}

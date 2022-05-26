@@ -34,7 +34,6 @@
 
 .heroContainer .hero_h1 a{
     text-decoration: none;
-
     color: white;
     border: 1px solid white;
     padding: 10px 20px;
@@ -43,3 +42,13 @@
     cursor: pointer;
 }
 
+/*diseño responsivo*/
+@media only screen and (max-width:600px){
+    .heroContainer .hero_h1 h1{
+        font-size: 25px;
+    }
+
+    .heroContainer .hero_h1 a{
+        font-size: 15px;
+    }
+}
