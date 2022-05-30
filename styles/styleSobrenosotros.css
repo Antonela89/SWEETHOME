@@ -7,7 +7,7 @@
 }
 
 #sobre_nosotros div{
-    width: 50%;  
+    width: 75%;  
 }
 
 #sobre_nosotros div .h2{
@@ -19,6 +19,7 @@
 
 #sobre_nosotros div .h2 h2{
     width: 50%;
+    font-size: 30px;
     text-transform: uppercase;
     padding: 20px;
     border-bottom: 1px solid rgb(196, 117, 13);

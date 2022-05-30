@@ -8,6 +8,7 @@
 
 #mascotas .h2 h2{
     width: 50%;
+    font-size: 30px;
     text-transform: uppercase;
     padding: 20px;
     border-bottom: 1px solid white;
@@ -55,10 +56,12 @@
 #mascotas div #img2 div h3{
     text-transform: uppercase;
     text-align: center;
+    font-size: 20px;
 }
 
 #mascotas div #img2 div p{
     text-align: center;
+    font-size: 20px;
     padding: 0px 20px;
     margin: 25px;
 }

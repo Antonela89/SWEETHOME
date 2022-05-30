@@ -41,8 +41,8 @@
 }
 
 .historia .card{
-    width: 400px;
-    height: 400px;
+    width: 40%;
+    height: 60%;
     left: 50px;
     border-radius: 30px;
     background-color: rgba(196, 117, 13, 0.5);
@@ -126,4 +126,11 @@
     width:100%;
     position: absolute;
     z-index: 10;
+}
+
+/*diseño responsivo*/
+@media only screen and (max-width:600px){
+    .img_container{
+        
+    }
 }

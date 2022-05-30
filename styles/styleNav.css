@@ -38,9 +38,6 @@ header{
 
 /*diseño responsivo*/
 @media only screen and (max-width:600px){
-    header{
-        height: 0px;
-    }
     
     .nav .nav_ul {
         width: 100%;
@@ -48,7 +45,7 @@ header{
         padding: 0;
     }
 
-    .nav .nav_ul:not(:first-child) {
-        margin-left: 20px;
+    .nav .nav_ul li:first-child {
+        margin-left: 0px;
     }
 }
