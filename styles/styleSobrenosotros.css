@@ -53,5 +53,14 @@
     #sobre_nosotros div p{
         font-size: 15px;
     }
+}
 
+@media only screen and (max-width:450px){
+    #sobre_nosotros{
+        height: 90vh;
+    }
+
+    #sobre_nosotros div{
+        width: 95%;
+    }
 }

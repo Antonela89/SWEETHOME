@@ -67,36 +67,58 @@
 }
 
 /*diseño responsivo*/
+@media only screen and (max-width:768px){
+    #mascotas div #img2 div p{
+        font-size: 17px;
+        margin: 0px;
+    }
+}
+
 @media only screen and (max-width:600px){
     #mascotas .h2 h2{
         font-size: 20px;
         padding: 0px;
     }
 
-    #mascotas div #img{
-        overflow: scroll;
-    }
-
-    #mascotas div #img img{
-        width: 50%;
-    }
-
     #mascotas div #img2{
     width: 100%;
     }
 
-    #mascotas div #img2 div{
-        width: 50%;
-        height: 40vh;
-    }
-
     #mascotas div #img2 div h3{
         font-size: 15px;
-        margin: 1px;
     }
 
     #mascotas div #img2 div p{
-        font-size: 15px;
+        font-size: 12px;
         margin: 0px;
     }
+}
+
+@media only screen and (max-width:450px){
+    #mascotas .h2 h2{
+        width: 75%;
+    }
+    #mascotas div #img{
+        width: 100%;
+        height: 100vw;
+        flex-wrap: wrap;
+    }
+
+    #mascotas div #img img{
+        width: 50%;
+        height: 50vw;
+        object-fit: cover;
+    }
+
+    #mascotas div #img2{
+        width: 100%;
+        height: 100vw;
+        flex-wrap: wrap;
+    }
+
+    #mascotas div #img2 div{
+        width: 50%;
+        height: 50vw;
+    }
+
 }

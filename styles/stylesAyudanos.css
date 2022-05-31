@@ -112,7 +112,6 @@
 }
 
 /* Seccion datos para donacion y adopcion*/
-
 .donacion .informacion{
     width: 100%;
     height: 35vw;
@@ -163,7 +162,7 @@
 
 .donacion .informacion .requisitos .ul ul{
     width: 80%;
-    margin-left: 60px;
+    margin-left: 30px;
     list-style-type: square;
     font-size: 20px
 }
@@ -172,7 +171,19 @@
     width: 100%;
     text-transform: uppercase;
     margin: 0;
+    font-size: 20px;
 }
 
+/*diseño responsivo*/
+@media only screen and (max-width:600px){
+    
+    .donacion .informacion .requisitos .ul ul{
+        margin-left: 10px;
+        font-size: 15px;
+    }
 
+    .donacion .informacion .requisitos .ul ul h3{
+        font-size: 20px;
+    }
 
+}

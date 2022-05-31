@@ -52,3 +52,20 @@
         font-size: 15px;
     }
 }
+
+@media only screen and (max-width:450px){
+    .heroContainer {
+        height: 130vh;
+        flex-direction: column;
+    }
+
+.heroContainer .hero_img{
+    width: 100%;
+    height: 50%;
+    }
+
+.heroContainer .hero_h1{
+    width: 100%;
+    height: 50%;
+    }
+}
