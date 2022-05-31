@@ -95,6 +95,9 @@
 }
 
 @media only screen and (max-width:450px){
+    #mascotas{
+        padding-bottom: 35px;
+    }
     #mascotas .h2 h2{
         width: 75%;
     }

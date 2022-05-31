@@ -36,7 +36,8 @@
         width: 100%;
         height: 35px;
         flex-direction: row;
-        top: 80vh;
+        position: relative;
+        top: 300vh;
         right: 0;
         justify-content: center;
         background-color: white;
@@ -50,6 +51,7 @@
         width:100%;
         height: 25px;
     }
+
     .redes div p{
         display: none;
     }
