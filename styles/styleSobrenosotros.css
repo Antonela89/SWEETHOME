@@ -55,12 +55,13 @@
     }
 }
 
-@media only screen and (max-width:450px){
+@media only screen and (max-width:475px){
     #sobre_nosotros{
-        height: 90vh;
+        height: 50vh;
     }
 
     #sobre_nosotros div{
         width: 95%;
     }
+    
 }

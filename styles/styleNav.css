@@ -36,14 +36,13 @@ header{
     cursor: pointer;
 }
 
-
 /*diseño responsivo*/
-@media only screen and (max-width:600px){
-    header{
+@media only screen and (max-width:768px) {
+    header {
         height: 10vh;
     }
 
-    .nav{
+    .nav {
         height: 10vh;
     }
 
@@ -59,9 +58,41 @@ header{
     }
 }
 
-@media only screen and (max-width:450px){
-
+@media only screen and (max-width:425px) {
     .nav .nav_ul li a{
         font-size: 10px;
+    }
+}
+
+@media only screen and (max-width:425px) {
+    .nav .nav_ul li{
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (max-width:320px) {
+    header{
+        height: 15vh;
+    }
+    
+    .nav {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        height: 15vh;
+    }
+
+    .nav .nav_ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin:0;
+        height: 15vh;
+    }
+
+    .nav .nav_ul li {
+        margin: 0;
     }
 }

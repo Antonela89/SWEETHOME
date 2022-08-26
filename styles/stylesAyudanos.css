@@ -122,6 +122,7 @@
     width: 100%;
     height: 35vw;
     display: flex;
+
     justify-content: center;
     align-items: center;
     position: absolute;
@@ -130,6 +131,7 @@
 
 .donacion .informacion .img div{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -162,7 +164,7 @@
 
 .donacion .informacion .requisitos .ul ul{
     width: 80%;
-    margin-left: 30px;
+    margin-left: 50px;
     list-style-type: square;
     font-size: 20px
 }
@@ -175,7 +177,10 @@
 }
 
 /*diseño responsivo*/
-@media only screen and (max-width:600px){
+@media only screen and (max-width:768px){
+    .donacion .banner  div h1{
+        font-size: 40px;
+    }
     
     .donacion .informacion .requisitos .ul ul{
         margin-left: 10px;
@@ -185,5 +190,62 @@
     .donacion .informacion .requisitos .ul ul h3{
         font-size: 20px;
     }
+}
 
+@media only screen and (max-width:425px){
+    .donacion .banner  div h1{
+        font-size: 30px;
+    }
+    
+    .donacion .datos{
+        width: 100%;
+        height: 150px; 
+    }
+
+    .donacion .datos .numero{
+        width: 100px;
+        height: 100px;
+    }
+
+    .donacion .datos .numero .descripcion{
+        flex-direction: column;
+    }
+
+    .donacion .datos .numero div h1{
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .donacion .datos .numero .descripcion img{
+        width: 30px;
+        height: 30px;
+    }
+    
+    .donacion .datos .numero .descripcion p{
+        font-size: 10px;
+        margin: 10px;
+    }
+
+    .donacion .informacion{
+        height: 60vh;
+    }
+
+    .donacion .informacion .img{
+        z-index: -99;
+    }
+
+    .donacion .informacion .requisitos{
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .donacion .informacion .requisitos .ul ul{
+        padding-left: 10px;
+    }
+}
+
+@media only screen and (max-width:320px){
+    .donacion .banner  div h1{
+        font-size: 15px;
+    }
 }

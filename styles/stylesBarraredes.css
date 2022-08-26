@@ -33,14 +33,16 @@
 /*diseño responsivo*/
 @media only screen and (max-width:600px){
     .redes {
-        width: 100%;
+        width: 99%;
         height: 35px;
         flex-direction: row;
         position: relative;
-        top: 300vh;
+        top: 0;
         right: 0;
         justify-content: center;
         background-color: white;
+        margin: 0;
+        padding: 0;
     }
 
     .redes div {
@@ -54,5 +56,19 @@
 
     .redes div p{
         display: none;
+    }
+}
+
+@media only screen and (max-width:425px){
+    .redes {
+        position: relative;
+        display: flex;
+        top: 0;
+    }
+}
+
+@media only screen and (max-width:320px){
+    .redes {
+        top: 0;
     }
 }

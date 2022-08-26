@@ -15,6 +15,7 @@
     text-align: center;
     color: white;
 }
+
 #mascotas div{
     position: relative;
 }
@@ -94,34 +95,33 @@
     }
 }
 
-@media only screen and (max-width:450px){
-    #mascotas{
-        padding-bottom: 35px;
-    }
+@media only screen and (max-width:425px){
     #mascotas .h2 h2{
         width: 75%;
     }
-    #mascotas div #img{
+
+    #mascotas #imagenes #img{
         width: 100%;
         height: 100vw;
-        flex-wrap: wrap;
+        flex-wrap:wrap;
+        right: 0;
+        left: 0;
     }
 
-    #mascotas div #img img{
+    #mascotas #imagenes #img img{
         width: 50%;
         height: 50vw;
         object-fit: cover;
     }
 
-    #mascotas div #img2{
+    #mascotas #imagenes #img2{
         width: 100%;
         height: 100vw;
-        flex-wrap: wrap;
+        flex-wrap:wrap;
     }
 
-    #mascotas div #img2 div{
+    #mascotas #imagenes #img2 div{
         width: 50%;
         height: 50vw;
     }
-
 }

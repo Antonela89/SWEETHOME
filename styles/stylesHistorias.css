@@ -123,27 +123,36 @@
 }
 
 /*diseño responsivo*/
-@media only screen and (max-width:600px){
-    .Imagen_1 .card{
+@media only screen and (max-width:600px) {
+    .Imagen_1 .card {
         left: 15px;
     }
 
     .historia .card .presentacion {
         align-items: center;
     }
-    .historia .card .presentacion div{
+    .historia .card .presentacion div {
         width: 30px;
         height: 30px;
     }
 
-    .historia .card .presentacion div img{
+    .historia .card .presentacion div img {
         width: 25px;
         height: 25px;
     }
 
-    .historia .card .presentacion h3{
+    .historia .card .presentacion h3 {
         font-size: 20px;
         margin: 0px 5px;
-
     }
 }   
+
+@media only screen and (max-width:425px) {
+    .historia .card {
+        justify-content: flex-start;
+    }
+
+    .historia .card .presentacion h3 {   
+        font-size: 15px;
+    }
+}
