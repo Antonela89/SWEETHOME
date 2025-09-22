@@ -1,176 +1,199 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <!-- Link CSS-->
-    <link rel="stylesheet" href="./styles/normalize.css">
-    <link rel="stylesheet" href="./styles/styleNav.css">
-    <link rel="stylesheet" href="./styles/stylesBarraredes.css">
-    <link rel="stylesheet" href="./styles/stylesAyudanos.css">
-    <link rel="stylesheet" href="./styles/styleFooter.css">
+    <link rel="stylesheet" href="./styles/00-normalize.css" />
+    <link rel="stylesheet" href="./styles/0-variables.css" />
+    <link rel="stylesheet" href="./styles/01-styleNav.css" />
+    <link rel="stylesheet" href="./styles/02-stylesBarraredes.css" />
+    <link rel="stylesheet" href="./styles/08-stylesAyudanos.css" />
+    <link rel="stylesheet" href="./styles/06-styleFooter.css" />
     <!-- Link -->
 
     <!-- Link Fuentes -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Handlee&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Link -->
+
+    <!-- Link FontAwesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <!-- Link -->
 
     <!-- Link Favicon-->
-    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" />
     <!-- Link -->
 
     <title>SweetHome-Ayudanos</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav class="nav">
-            <ul class="nav_ul"> 
-                <li><a href="./index.html#home">HOME</a></li>
-                <li><a href="./index.html#sobre_nosotros">SOBRE NOSOTROS</a></li>
-                <li><a href="./historias.html">HISTORIAS</a></li>
-                <li><a href="./ayudanos.html">AYUDANOS</a></li>
-                <li><a href="./contacto.html">CONTACTO</a></li>
-            </ul>
-        </nav>
+      <nav class="nav">
+        <h1><a href="#home" class="nav__logo">SweetHome</a></h1>
+
+        <div class="nav__links">
+          <ul class="nav__ul">
+            <li><a href="./index.html">HOME</a></li>
+            <li><a href="./index.html#sobre_nosotros">SOBRE NOSOTROS</a></li>
+            <li><a href="./historias.html">HISTORIAS</a></li>
+            <li><a href="./ayudanos.html">AYUDANOS</a></li>
+            <li><a href="./contacto.html">CONTACTO</a></li>
+          </ul>
+        </div>
+
+        <button class="nav__toggle" aria-label="Abrir menú">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </nav>
     </header>
 
     <main>
-        <div class="redes"> 
-            <div>
-                <img src="./img/whatsapp.png" alt="" class="imagen">
-                <p>whatsapp</p>
-            </div>
-            <div>
-                <img src="./img/gorjeo.png" alt="" class="imagen">
-                <p>twitter</p>
-            </div>
-            <div>
-                <img src="./img/facebook.png" alt="" class="imagen">
-                <p>facebook</p>
-            </div>
-            <div>
-                <img src="./img/instagram.png" alt="" class="imagen">
-                <p>instagram</p>
-            </div>
-            <div>
-                <img src="./img/mensajero.png" alt="" class="imagen">
-                <p>messenger</p>
-            </div>
+      <div class="redes">
+        <a href="https://wa.me/TUNUMERO" target="_blank" aria-label="WhatsApp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+        <a
+          href="https://twitter.com/TUCUENTA"
+          target="_blank"
+          aria-label="Twitter"
+        >
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a
+          href="https://facebook.com/TUCUENTA"
+          target="_blank"
+          aria-label="Facebook"
+        >
+          <i class="fab fa-facebook"></i>
+        </a>
+        <a
+          href="https://instagram.com/TUCUENTA"
+          target="_blank"
+          aria-label="Instagram"
+        >
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://m.me/TUCUENTA" target="_blank" aria-label="Messenger">
+          <i class="fab fa-facebook-messenger"></i>
+        </a>
+      </div>
+
+      <div class="donacion">
+        <div class="banner">
+          <img src="./img/Cuidado-mascotas.jpg" alt="" />
+          <div>
+            <h1>vos haces la diferencia</h1>
+          </div>
         </div>
 
-        <div class="donacion">
-            <div class="banner">
-                <img src="./img/Cuidado-mascotas.jpg" alt="">
-                <div>
-                    <h1>vos haces la diferencia</h1>
-                </div>
+        <div class="datos">
+          <div class="numero">
+            <div class="circulo-numero">
+              <h2>130</h2>
             </div>
 
-            <div class="datos">
-                    <div class="numero">
-                        <div>
-                            <h1>130</h1>
-                        </div>
-
-                            <div class="descripcion">
-                                <img src="./img/grupo-de-personas.png" alt="">
-                                <p>voluntarios</p>
-                            </div>
-                    </div>
-
-                    <div class="numero">
-                        <div>
-                            <h1>260</h1>
-                        </div>
-                        <div class="descripcion">
-                            <img src="./img/cuidado-animal.png" alt="">
-                            <p>animales rescatados</p>
-                        </div>
-                    </div>
-
-                    <div class="numero">
-                        <div>
-                            <h1>180</h1>
-                        </div>
-                        <div class="descripcion">
-                            <img src="./img/refugio-de-animales.png" alt="">
-                            <p>animales adoptados</p>
-                        </div>
-                    </div>
+            <div class="descripcion">
+              <i class="fa-solid fa-people-group"></i>
+              <p>voluntarios</p>
             </div>
+          </div>
 
-            <div class="img_container2">
-                <div class="fila_imagenes2"> 
-                    <img src="./img/R (1).jfif" alt="">
-                    <img src="./img/perro-perdido.jpg" alt="">
-                    <img src="./img/pexels-lilartsy-3335619.jpg" alt="">
-                    <img src="./img/R (2).jfif" alt="">
-                </div>
-    
-                <div class="fondo2">
-                </div>
+          <div class="numero">
+            <div class="circulo-numero">
+              <h2>260</h2>
             </div>
-
-            <div class="informacion">
-                <div  class="img">
-                    <div>
-                        <img src="./img/R.jfif" alt="">
-                    </div>
-                        
-                    <div>
-                        <img src="./img/img_mrius_20200218-123523_imagenes_lv_terceros_ayudar_perrera_4-kQyC--656x432@LaVanguardia-Web.jpg" alt="">
-                    </div>
-                </div>
-
-                <div class="requisitos">
-                    <div class="ul">
-                        <ul>
-                            <h3>requisitos para adopción</h3>
-                            <li>Ser mayor de 21 años</li>
-                            <li>Presentar D.N.I.</li>
-                            <li>Residir en la ciudad o en un radio no mayor a 20km.</li>
-                            <li>Cumplir con los compromisos y obligaciones detallados en el <span> Contrato de Adopción Responsable. </li>
-                            <li>Continuar el <span>Plan de Salud y Cuidados </span>iniciado por SweetHome.</li>
-                        </ul>
-                    </div>
-
-                    <div class="ul">
-                        <ul>
-                            <h3>datos bancarios</h3>
-                            <li>Caja de Ahorros Nº 0823/01112394/17</li>
-                            <li>CBU Nº 0150823701000112391297</li>
-                            <li>Banco Nación</li>
-                            <li>Titular: ASOCIACION SWEETHOME</li>
-                            <li>CUIT: 30-67420579-8</li>
-                        </ul>
-                    </div>
-                </div>
+            <div class="descripcion">
+              <i class="fa-solid fa-paw"></i>
+              <p>animales rescatados</p>
             </div>
+          </div>
 
-            <div class="img_container2">
-                <div class="fila_imagenes2"> 
-                    <img src="./img/Adopcion-perro-768x512.jpg" alt="">
-                    <img src="./img/niñoyperro.jpg" alt="">
-                    <img src="./img/adopcion1.jpeg" alt="">
-                    <img src="./img/perro-donar-sangre-parrafo.webp" alt="">
-                </div>
-    
-                <div class="fondo2">
-                </div>
+          <div class="numero">
+            <div class="circulo-numero">
+              <h2>180</h2>
             </div>
+            <div class="descripcion">
+              <i class="fa-solid fa-house"></i>
+              <p>animales adoptados</p>
+            </div>
+          </div>
         </div>
+
+        <div class="img__container2">
+          <div class="fila__imagenes2">
+            <img src="./img/R (1).jfif" alt="" />
+            <img src="./img/perro-perdido.jpg" alt="" />
+            <img src="./img/pexels-lilartsy-3335619.jpg" alt="" />
+            <img src="./img/R (2).jfif" alt="" />
+          </div>
+        </div>
+
+        <div class="informacion">
+          <img class="info-imagen" src="./img/R.jfif" alt="" />
+          <div class="info-texto">
+            <ul>
+              <h3>requisitos para adopción</h3>
+              <li>Ser mayor de 21 años</li>
+              <li>Presentar D.N.I.</li>
+              <li>Residir en la ciudad o en un radio no mayor a 20km.</li>
+              <li>
+                Cumplir con los compromisos y obligaciones detallados en el
+                <span> Contrato de Adopción Responsable.</span>
+              </li>
+              <li>
+                Continuar el <span>Plan de Salud y Cuidados </span>iniciado por
+                SweetHome.
+              </li>
+            </ul>
+          </div>
+
+          <img
+            class="info-imagen"
+            src="./img/img_mrius_20200218-123523_imagenes_lv_terceros_ayudar_perrera_4-kQyC--656x432@LaVanguardia-Web.jpg"
+            alt=""
+          />
+          <div class="info-texto">
+            <ul>
+              <h3>datos bancarios</h3>
+              <li>Caja de Ahorros Nº 0823/01112394/17</li>
+              <li>CBU Nº 0150823701000112391297</li>
+              <li>Banco Nación</li>
+              <li>Titular: ASOCIACION SWEETHOME</li>
+              <li>CUIT: 30-67420579-8</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="img__container2">
+          <div class="fila__imagenes2">
+            <img src="./img/Adopcion-perro-768x512.jpg" alt="" />
+            <img src="./img/niñoyperro.jpg" alt="" />
+            <img src="./img/adopcion1.jpeg" alt="" />
+            <img src="./img/perro-donar-sangre-parrafo.webp" alt="" />
+          </div>
+        </div>
+      </div>
     </main>
 
     <footer>
-        <div class="footer">
-            <p>2022 - Desarrollado por Antonela Borgogno</p>
-        </div>
+      <div class="footer">
+        <p>2022 - Desarrollado por Antonela Borgogno</p>
+      </div>
     </footer>
 
-    <script src = "js/index.js" type="module"></script>
-</body>
+    <script src="js/index.js" type="module"></script>
+  </body>
 </html>

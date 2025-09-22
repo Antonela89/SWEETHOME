@@ -4,15 +4,16 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(196, 117, 13);
-    color: white;
+    background-color: var(--color-principal);
+    color: var(--color-texto-claro);
     position: relative;
-    bottom: 0px;
+    bottom: 0;
+    font-family: var(--fuente-titulos);
 }
 
 @media only screen and (max-width:600px){
     .footer{
         height: 10vh;
-        font-size: 10px;
+        font-size: 0.625rem;
     }
 }

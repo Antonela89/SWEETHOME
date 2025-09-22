@@ -1,117 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <!-- Link CSS-->
-        <link rel="stylesheet" href="./styles/normalize.css">
-        <link rel="stylesheet" href="./styles/styleNav.css">
-        <link rel="stylesheet" href="./styles/stylesBarraredes.css">
-        <link rel="stylesheet" href="./styles/stylesHistorias.css">
-        <link rel="stylesheet" href="./styles/styleFooter.css">
-        <!-- Link -->
-    
-        <!-- Link Fuentes -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
-        <!-- Link -->
+    <!-- Link CSS-->
+    <link rel="stylesheet" href="./styles/00-normalize.css" />
+    <link rel="stylesheet" href="./styles/0-variables.css" />
+    <link rel="stylesheet" href="./styles/01-styleNav.css" />
+    <link rel="stylesheet" href="./styles/02-stylesBarraredes.css" />
+    <link rel="stylesheet" href="./styles/07-stylesHistorias.css" />
+    <link rel="stylesheet" href="./styles/06-styleFooter.css" />
+    <!-- Link -->
 
-        <!-- Link Favicon -->
-        <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
-        <!-- Link -->
+    <!-- Link Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Handlee&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Link -->
 
-        <title>Sweethome-Historias</title>
-</head>
-<body>
+    <!-- Link FontAwesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Link -->
+
+    <!-- Link Favicon -->
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" />
+    <!-- Link -->
+
+    <title>Sweethome-Historias</title>
+  </head>
+  <body>
     <header>
-        <nav class="nav">
-            <ul class="nav_ul"> 
-                <li><a href="./index.html#home">HOME</a></li>
-                <li><a href="index.html#sobre_nosotros">SOBRE NOSOTROS</a></li>
-                <li><a href="./historias.html">HISTORIAS</a></li>
-                <li><a href="./ayudanos.html">AYUDANOS</a></li>
-                <li><a href="./contacto.html">CONTACTO</a></li>
-            </ul>
-        </nav>
+      <nav class="nav">
+        <h1><a href="#home" class="nav__logo">SweetHome</a></h1>
+
+        <div class="nav__links">
+          <ul class="nav__ul">
+            <li><a href="./index.html">HOME</a></li>
+            <li><a href="./index.html#sobre_nosotros">SOBRE NOSOTROS</a></li>
+            <li><a href="./historias.html">HISTORIAS</a></li>
+            <li><a href="./ayudanos.html">AYUDANOS</a></li>
+            <li><a href="./contacto.html">CONTACTO</a></li>
+          </ul>
+        </div>
+
+        <button class="nav__toggle" aria-label="Abrir menú">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </nav>
     </header>
 
     <main>
-        <div class="redes"> 
-            <div>
-                <img src="./img/whatsapp.png" alt="" class ="imagen">
-                <p>whatsapp</p>
-            </div>
-            <div>
-                <img src="./img/gorjeo.png" alt="" class="imagen">
-                <p>twitter</p>
-            </div>
-            <div>
-                <img src="./img/facebook.png" alt="" class="imagen">
-                <p>facebook</p>
-            </div>
-            <div>
-                <img src="./img/instagram.png" alt="" class="imagen">
-                <p>instagram</p>
-            </div>
-            <div>
-                <img src="./img/mensajero.png" alt=""  class="imagen">
-                <p>messenger</p>
-            </div>
-        </div>
-    
-        <div class="img_container">
-            <div class="fila_imagenes"> 
-                <img class="apuntar" src="./img/historias/imagen_1/21.jpg" alt="gato1">
-                <img class="apuntar" src="./img/historias/imagen_2/03.jpg" alt="perro1">
-                <img class="apuntar" src="./img/historias/imagen_3/AdobeStock_156100154.jpg" alt="perroYGato">
-                <img class="apuntar" src="./img/historias/imagen_4/18.jpg" alt="gato2">
-            </div>
+      <div class="redes">
+        <a href="https://wa.me/TUNUMERO" target="_blank" aria-label="WhatsApp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+        <a
+          href="https://twitter.com/TUCUENTA"
+          target="_blank"
+          aria-label="Twitter"
+        >
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a
+          href="https://facebook.com/TUCUENTA"
+          target="_blank"
+          aria-label="Facebook"
+        >
+          <i class="fab fa-facebook"></i>
+        </a>
+        <a
+          href="https://instagram.com/TUCUENTA"
+          target="_blank"
+          aria-label="Instagram"
+        >
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://m.me/TUCUENTA" target="_blank" aria-label="Messenger">
+          <i class="fab fa-facebook-messenger"></i>
+        </a>
+      </div>
 
-            <div class="fila_texto">
-            </div>
+      <div class="img__container">
+        <div class="fila__imagenes">
+          <img
+            class="apuntar"
+            src="./img/historias/imagen_1/21.jpg"
+            alt="gato1"
+          />
+          <img
+            class="apuntar"
+            src="./img/historias/imagen_2/03.jpg"
+            alt="perro1"
+          />
+          <img
+            class="apuntar"
+            src="./img/historias/imagen_3/AdobeStock_156100154.jpg"
+            alt="perroYGato"
+          />
+          <img
+            class="apuntar"
+            src="./img/historias/imagen_4/18.jpg"
+            alt="gato2"
+          />
+        </div>
+      </div>
+
+      <section class="historia">
+        <div class="historia__imagen-principal">
+          <img
+            src="./img/historias/imagen_1/21.jpg"
+            alt="Imagen principal de la historia"
+            id="imgHistoria"
+          />
         </div>
 
-        <div class ="Imagen_1" id="Imagen">
-            <div class="historia">
-                <div>
-                    <img src="./img/historias/imagen_1/21.jpg" alt="description" id="imgHistoria">
-                </div>
-                <div class="card">
-                    <div class="presentacion">
-                        <div>
-                            <img src="./img/historias/iconos/icons8-tren-de-comandos-de-mascotas-30.png" alt="" id="iconHistoria">
-                        </div>
-                        <h3 id="nombreHistoria">Nombre</h3>
-                    </div>
-                    <div class="descripcion">
-                        <p id="descripcionHistoria">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero dolorum, repellendus optio aliquid, qui nisi impedit ullam porro expedita exercitationem omnis numquam ea at laudantium id incidunt commodi dignissimos magnam dolores! Laborum repellat repellendus quae illum delectus veniam tempore suscipit harum numquam! Sed quos culpa, sint voluptas molestiae recusandae ab ipsa rem necessitatibus quae, quam voluptates nemo veniam porro exercitationem qui sequi corrupti odit enim quaerat excepturi soluta ut. Maxime, eveniet voluptatibus praesentium rem ratione esse quaerat obcaecati enim vel sapiente adipisci quisquam impedit sunt facilis reprehenderit corporis. Quidem quo tempora ipsa atque, dolores iure similique aliquid soluta quam ipsum.</p>
-                    </div>
-                </div>
+        <div class="historia__contenido">
+          <div class="presentacion">
+            <div class="presentacion__icon-wrapper">
+              <img
+                src="./img/historias/iconos/icons8-tren-de-comandos-de-mascotas-30.png"
+                alt=""
+                id="iconHistoria"
+              />
             </div>
-            <div class="img_container2">
-                <div class="fila_imagenes2">
-                    <img src="./img/historias/imagen_1/15.jpg" alt="" class="galeria">
-                    <img src="./img/historias/imagen_1/pexels-brigitte-miller-7527087.jpg" alt="" class="galeria">
-                    <img src="./img/historias/imagen_1/pexels-hải-nguyễn-12010469.jpg" alt="" class="galeria">
-                    <img src="./img/historias/imagen_1/17.jpg" alt="" class="galeria">
-                </div>
-                <div class="fondo2">
-                </div>
-            </div>
+            <h3 id="nombreHistoria">Nombre</h3>
+          </div>
+          <div class="descripcion">
+            <p id="descripcionHistoria">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Laboriosam, id!
+            </p>
+          </div>
         </div>
-
+      </section>
+      <div class="img__container2">
+        <div class="fila__imagenes2">
+          <img src="./img/historias/imagen_1/15.jpg" alt="" class="galeria" />
+          <img
+            src="./img/historias/imagen_1/pexels-brigitte-miller-7527087.jpg"
+            alt=""
+            class="galeria"
+          />
+          <img
+            src="./img/historias/imagen_1/pexels-hải-nguyễn-12010469.jpg"
+            alt=""
+            class="galeria"
+          />
+          <img src="./img/historias/imagen_1/17.jpg" alt="" class="galeria" />
+        </div>
+      </div>
     </main>
 
     <footer>
-        <div class="footer">
-            <p>2022 - Desarrollado por Antonela Borgogno</p>
-        </div>
+      <div class="footer">
+        <p>2022 - Desarrollado por Antonela Borgogno</p>
+      </div>
     </footer>
 
-    <script src = "js/index.js" type="module"></script>
-    <script src="./js/historias.js"></script>
-</body>
+    <script src="js/index.js" type="module"></script>
+  </body>
 </html>

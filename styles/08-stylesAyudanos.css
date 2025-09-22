@@ -1,0 +1,176 @@
+/* --- Contenedor Principal --- */
+main {
+    padding-top: 10vh;
+}
+
+/* --- Banner Superior --- */
+.banner {
+    width: 100%;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+}
+
+.banner div {
+    background-color: var(--color-principal);
+    padding: 1.5rem 1rem;
+}
+
+.banner div h1 {
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 0;
+    color: var(--color-texto-claro);
+}
+
+
+/* --- Sección de Datos (Voluntarios, Rescatados, etc.) --- */
+.datos {
+    background-color: var(--color-principal);
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.datos .numero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.datos .numero .circulo-numero {
+    background-color: var(--color-texto-claro);
+    border-radius: 50%;
+    width: 5rem;
+    aspect-ratio: 1/1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.datos .numero .circulo-numero h2 {
+    font-size: 2rem;
+    margin: 0;
+    color: var(--color-principal);
+}
+
+.datos .numero .descripcion {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--color-texto-claro);
+}
+
+.datos .numero .descripcion i {
+    font-size: 3rem;
+    color: var(--color-texto-claro);
+}
+
+.datos .numero .descripcion p {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+/* --- Sección de Información (Requisitos y Datos Bancarios) --- */
+.informacion {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding: 2rem 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: var(--color-fondo-claro);
+}
+
+.info-imagen {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    border-radius: 1.5rem;
+}
+
+.info-texto {
+    background-color: var(--color-fondo-neutro);
+    padding: 1.5rem;
+    border-radius: 1rem;
+}
+
+.info-texto ul {
+    list-style-type: square;
+    padding-left: 1.5rem;
+    margin: 0;
+    font-size: 1rem;
+}
+
+.info-texto ul h3 {
+    text-transform: uppercase;
+    margin: 0 0 1rem 0;
+    font-size: 1.2rem;
+    color: var(--color-principal);
+}
+
+.img__container2 {
+    background-color: var(--color-texto-claro);
+    padding: 2rem 1rem;
+    max-width: 75rem;
+}
+
+.fila__imagenes2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    gap: 1rem;
+}
+
+.fila__imagenes2 img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 1.5rem;
+}
+
+/* --- Para Tablets (768px) y superior --- */
+@media (min-width: 768px) {
+    .banner div h1 {
+        font-size: 3rem;
+    }
+
+    .datos {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+
+    .informacion {
+        grid-template-columns: 1fr 1fr;
+        align-items: stretch;
+        gap: 2rem;
+    }
+
+    .informacion>*:nth-child(3) {
+        grid-column: 2 / 3;
+    }
+
+    .informacion>*:nth-child(4) {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+    }
+
+    .info-texto {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .info-texto:hover {
+        transform: scale(1.02);
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    }
+}

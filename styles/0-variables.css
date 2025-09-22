@@ -1,0 +1,45 @@
+:root {
+    /* Paleta de Colores */
+    --color-principal: rgb(196, 117, 13);
+    --color-fondo-claro: rgb(226, 214, 200);
+    --color-texto-claro: white;
+    --color-texto-oscuro: #333;
+    --color-fondo-neutro: #f9f9f9;
+
+    /* Tipografía */
+    --fuente-titulos: 'Handlee', cursive; 
+    --fuente-cuerpo: sans-serif; 
+
+    /* Tamaños de Fuente (usando rem) */
+    --fs-normal: 1rem;      /* 16px */
+    --fs-grande: 1.25rem;   /* 20px */
+    --fs-titulo-sm: 1.5rem; /* 24px */
+    --fs-titulo-md: 2rem;   /* 32px */
+    --fs-titulo-lg: 2.5rem; /* 40px */
+
+    /* Espaciado */
+    --space-xs: 0.5rem;    /*  8px */
+    --space-sm: 0.875rem;  /* 14px */
+    --space-md: 1.25rem;   /* 20px  */
+    --space-lg: 1.8rem;    /* ~29px */
+
+}
+
+/* base global */
+body {
+    font-family: var(--fuente-cuerpo);
+    color: var(--color-texto-oscuro);
+    line-height: 1.6;
+    /* Espacio para div de redes sociales */
+    padding-bottom: 5rem; 
+}
+
+h1, h2, h3 {
+    font-family: var(--fuente-titulos);
+}
+
+@media (min-width: 768px) {
+    body {
+        padding-bottom: 0;
+    }
+}

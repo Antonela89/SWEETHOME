@@ -1,124 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Link CSS-->
-    <link rel="stylesheet" href="./styles/normalize.css">
-    <link rel="stylesheet" href="./styles/styleNav.css">
-    <link rel="stylesheet" href="./styles/stylesBarraredes.css">
-    <link rel="stylesheet" href="./styles/styleContacto.css">
-    <link rel="stylesheet" href="./styles/styleFooter.css">
+    <link rel="stylesheet" href="./styles/00-normalize.css" />
+    <link rel="stylesheet" href="./styles/0-variables.css" />
+    <link rel="stylesheet" href="./styles/01-styleNav.css" />
+    <link rel="stylesheet" href="./styles/02-stylesBarraredes.css" />
+    <link rel="stylesheet" href="./styles/09-styleContacto.css" />
+    <link rel="stylesheet" href="./styles/06-styleFooter.css" />
     <!-- Link -->
 
     <!-- Link Fuentes -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Handlee&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Link -->
+
+    <!-- Link FontAwesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <!-- Link -->
 
     <!-- Link Favicon-->
-    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" />
     <!-- Link -->
-    
+
     <title>Sweethome-Contacto</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav class="nav">
-            <ul class="nav_ul"> 
-                <li><a href="./index.html#home">HOME</a></li>
-                <li><a href="./index.html#sobre_nosotros">SOBRE NOSOTROS</a></li>
-                <li><a href="./historias.html">HISTORIAS</a></li>
-                <li><a href="./ayudanos.html">AYUDANOS</a></li>
-                <li><a href="./contacto.html">CONTACTO</a></li>
-            </ul>
-        </nav>
+      <nav class="nav">
+        <h1><a href="#home" class="nav__logo">SweetHome</a></h1>
+
+        <div class="nav__links">
+          <ul class="nav__ul">
+            <li><a href="./index.html">HOME</a></li>
+            <li><a href="./index.html#sobre_nosotros">SOBRE NOSOTROS</a></li>
+            <li><a href="./historias.html">HISTORIAS</a></li>
+            <li><a href="./ayudanos.html">AYUDANOS</a></li>
+            <li><a href="./contacto.html">CONTACTO</a></li>
+          </ul>
+        </div>
+
+        <button class="nav__toggle" aria-label="Abrir menú">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </nav>
     </header>
 
     <main>
-        <div class="redes"> 
-            <div>
-                <img src="./img/whatsapp.png" alt="" class="imagen">
-                <p id="demoR">whatsapp</p>
-            </div>
-            <div>
-                <img src="./img/gorjeo.png" alt="" class="imagen">
-                <p id="demoR1">twitter</p>
-            </div>
-            <div>
-                <img src="./img/facebook.png" alt="" class="imagen">
-                <p id="demoR2">facebook</p>
-            </div>
-            <div>
-                <img src="./img/instagram.png" alt="" class="imagen">
-                <p id="demoR3">instagram</p>
-            </div>
-            <div>
-                <img src="./img/mensajero.png" alt="" class="imagen">
-                <p id="demoR4">messenger</p>
-            </div>
-        </div>
+      <div class="redes">
+        <a href="https://wa.me/TUNUMERO" target="_blank" aria-label="WhatsApp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+        <a
+          href="https://twitter.com/TUCUENTA"
+          target="_blank"
+          aria-label="Twitter"
+        >
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a
+          href="https://facebook.com/TUCUENTA"
+          target="_blank"
+          aria-label="Facebook"
+        >
+          <i class="fab fa-facebook"></i>
+        </a>
+        <a
+          href="https://instagram.com/TUCUENTA"
+          target="_blank"
+          aria-label="Instagram"
+        >
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://m.me/TUCUENTA" target="_blank" aria-label="Messenger">
+          <i class="fab fa-facebook-messenger"></i>
+        </a>
+      </div>
 
-        <section class="container">
-            <div class="formulario">
-                <div class="texto">
-                    <div class="h2">
-                            <h2>Escribenos</h2>
-                    </div>
-                    <form method="get" name="form" id="form">
-                        <label for="Nombre">Nombre:</label>
-                        <input type="text" id="nombre" class="texto textoForm" name="nombreYapellido">
-                        <label for="Apellido">Apellido:</label>
-                        <input type="text" id="apellido" class="texto textoForm" name="nombreYapellido">
-                        <label for="Edad">Edad:</label>
-                        <input type="number" id="Edad" name="Edad">
-                        <label for="Telefono">Teléfono:</label>
-                        <input type="number" id="Telefono" name="Telefono">
-                        <label for="Email">E-mail:</label>
-                        <input type="email" id="Email" name="Email">
-                        <p>Elija el tipo de mascota que desea adoptar</p>
-                        <div>
-                            <label for="Gato">Gato</label>
-                            <input type="checkbox" name="Mascota" id="Gato">
-                            <label for="Perro">Perro</label>
-                            <input type="checkbox" name="Mascota" id="Perro">
-                        </div>
-                        <textarea name="" id="" cols="60" rows="4">Escriba aquí características de la mascota</textarea>
-                    </form>
-                </div>
-                <div class ="flecha">
-                    <img src="./img/iconos/enviar/001-submit.png" alt="" id="enviar">
-                </div>
+      <section class="container">
+        <div class="formulario">
+          <div class="texto">
+            <div class="h2">
+              <h2>Escribenos</h2>
             </div>
+            <form method="get" name="form" id="form">
+              <label for="Nombre">Nombre:</label>
+              <input
+                type="text"
+                id="nombre"
+                class="texto"
+                name="nombreYapellido"
+              />
+              <label for="Apellido">Apellido:</label>
+              <input
+                type="text"
+                id="apellido"
+                class="texto"
+                name="nombreYapellido"
+              />
+              <label for="Edad">Edad:</label>
+              <input type="number" id="Edad" name="Edad" />
+              <label for="Telefono">Teléfono:</label>
+              <input type="number" id="Telefono" name="Telefono" />
+              <label for="Email">E-mail:</label>
+              <input type="email" id="Email" name="Email" />
+              <p>Elija el tipo de mascota que desea adoptar</p>
+              <div>
+                <label for="Gato">Gato</label>
+                <input type="checkbox" name="Mascota" id="Gato" />
+                <label for="Perro">Perro</label>
+                <input type="checkbox" name="Mascota" id="Perro" />
+              </div>
+              <textarea name="" id="" cols="60" rows="4">
+Escriba aquí características de la mascota</textarea
+              >
+
+              <button type="submit" id="enviar" class="submit-button">
+                <span>Enviar</span>
+                <i class="fa-solid fa-paper-plane"></i>
+              </button>
+            </form>
+          </div>
+        </div>
 
         <div class="ubicacion">
-            <div class="h2">
-                    <h2>Visitanos</h2>
-            </div>
+          <div class="h2">
+            <h2>Visitanos</h2>
+          </div>
 
-            <div class="iframe"> 
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3411.0374460230782!2d-61.514029985163496!3d-31.247386695223696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1651629283300!5m2!1ses!2sar" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
+          <div class="iframe">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3411.0374460230782!2d-61.514029985163496!3d-31.247386695223696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1651629283300!5m2!1ses!2sar"
+              width="100%"
+              height="400"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
 
-            <div class="datos">
-                <p><span>Dirección:</span> 500 Millas Argentinas 245, Rafaela,Sta Fe.</p>
-                <p><span>Horarios de Atención:</span> Lunes a Viernes: de 8 a 12 hs</p>
-                <p><span>Teléfono:</span> 000-12345678</p>
-            </div>
+          <div class="datos">
+            <p>
+              <span>Dirección:</span> 500 Millas Argentinas 245, Rafaela,Sta Fe.
+            </p>
+            <p>
+              <span>Horarios de Atención:</span> Lunes a Viernes: de 8 a 12 hs
+            </p>
+            <p><span>Teléfono:</span> 000-12345678</p>
+          </div>
         </div>
-        </section>
+      </section>
     </main>
 
     <footer>
-        <div class="footer">
-            <p>2022 - Desarrollado por Antonela Borgogno</p>
-        </div>
+      <div class="footer">
+        <p>2022 - Desarrollado por Antonela Borgogno</p>
+      </div>
     </footer>
 
-    <script src = "js/index.js" type="module"></script>
-    <script src="./js/formulario.js"></script>
-</body>
+    <script src="js/index.js" type="module"></script>
+  </body>
 </html>

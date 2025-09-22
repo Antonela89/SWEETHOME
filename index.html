@@ -1,160 +1,207 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Link CSS-->
-    <link rel="stylesheet" href="./styles/normalize.css">
-    <link rel="stylesheet" href="./styles/styleNav.css">
-    <link rel="stylesheet" href="./styles/stylesBarraredes.css">
-    <link rel="stylesheet" href="./styles/styleHero.css">
-    <link rel="stylesheet" href="./styles/styleSobrenosotros.css">
-    <link rel="stylesheet" href="./styles/stylesMascotas.css">
-    <link rel="stylesheet" href="./styles/styleFooter.css">
+    <link rel="stylesheet" href="./styles/00-normalize.css" />
+    <link rel="stylesheet" href="./styles/0-variables.css" />
+    <link rel="stylesheet" href="./styles/01-styleNav.css" />
+    <link rel="stylesheet" href="./styles/02-stylesBarraredes.css" />
+    <link rel="stylesheet" href="./styles/03-styleHero.css" />
+    <link rel="stylesheet" href="./styles/04-styleSobrenosotros.css" />
+    <link rel="stylesheet" href="./styles/05-stylesMascotas.css" />
+    <link rel="stylesheet" href="./styles/06-styleFooter.css" />
     <!-- Link -->
 
     <!-- Link Fuentes -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Handlee&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Link -->
+
+    <!-- Link FontAwesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <!-- Link -->
 
     <!-- Link Favicon-->
-    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
-    <link rel="icon" type="image/png" href="favicon-196x196.png" sizes="196x196"/>
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="favicon-196x196.png"
+      sizes="196x196"
+    />
     <!-- Link -->
 
     <title>SweetHome</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav class="nav">
-            <ul class="nav_ul"> 
-                <li><a href="#home">HOME</a></li>
-                <li><a href="#sobre_nosotros">SOBRE NOSOTROS</a></li>
-                <li><a href="./historias.html">HISTORIAS</a></li>
-                <li><a href="./ayudanos.html">AYUDANOS</a></li>
-                <li><a href="./contacto.html">CONTACTO</a></li>
-            </ul>
-        </nav>
+      <nav class="nav">
+        <h1><a href="#home" class="nav__logo">SweetHome</a></h1>
+
+        <div class="nav__links">
+          <ul class="nav__ul">
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#sobre_nosotros">SOBRE NOSOTROS</a></li>
+            <li><a href="./historias.html">HISTORIAS</a></li>
+            <li><a href="./ayudanos.html">AYUDANOS</a></li>
+            <li><a href="./contacto.html">CONTACTO</a></li>
+          </ul>
+        </div>
+
+        <button class="nav__toggle" aria-label="Abrir menú">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </nav>
     </header>
 
     <main>
-        <div class="redes"> 
-            <div>
-                <img src="./img/whatsapp.png" alt="" class="imagen">
-                <p>whatsapp</p>
-            </div>
-            <div>
-                <img src="./img/gorjeo.png" alt="" class="imagen">
-                <p>twitter</p>
-            </div>
-            <div>
-                <img src="./img/facebook.png" alt="" class="imagen">
-                <p>facebook</p>
-            </div>
-            <div>
-                <img src="./img/instagram.png" alt="" class="imagen">
-                <p>instagram</p>
-            </div>
-            <div>
-                <img src="./img/mensajero.png" alt="" class="imagen">
-                <p>messenger</p>
-            </div>
+      <div class="redes">
+        <a href="https://wa.me/TUNUMERO" target="_blank" aria-label="WhatsApp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+        <a
+          href="https://twitter.com/TUCUENTA"
+          target="_blank"
+          aria-label="Twitter"
+        >
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a
+          href="https://facebook.com/TUCUENTA"
+          target="_blank"
+          aria-label="Facebook"
+        >
+          <i class="fab fa-facebook"></i>
+        </a>
+        <a
+          href="https://instagram.com/TUCUENTA"
+          target="_blank"
+          aria-label="Instagram"
+        >
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://m.me/TUCUENTA" target="_blank" aria-label="Messenger">
+          <i class="fab fa-facebook-messenger"></i>
+        </a>
+      </div>
+
+      <section id="home">
+        <div class="hero__container">
+          <div class="hero__img">
+            <img src="img/12.jpg" alt="" />
+          </div>
+          <div class="hero__h1">
+            <h1>
+              Hola! Somos SweetHome, nos dedicamos a reunir familias con nuevos
+              integrantes.
+            </h1>
+            <a
+              href="./contacto.html"
+              id="demo"
+              onmouseover="mouseOver()"
+              onmouseout="mouseOut()"
+            >
+              ¡CONTACTANOS!
+            </a>
+          </div>
         </div>
-    
-        <section id=home> 
-            <div class="heroContainer">
-                <div class="hero_img">
-                    <img src="img/12.jpg" alt="">
-                </div>
-                <div class="hero_h1">
-                    <h1>Hola! Somos SweetHome, nos dedicamos a reunir familias con nuevos integrantes.</h1>
-                        <a href="./contacto.html" id="demo"
-                        onmouseover = "mouseOver()" onmouseout = "mouseOut()">
-                        ¡CONTACTANOS!
-                        </a>
-                </div>
-            </div>
-        </section>
+      </section>
 
-        <section id="sobre_nosotros">
-            <div>
-                <div class="h2">
-                    <h2>sobre nosotros</h2>
-                </div>
-            
-                <p>
-                    SweetHome es un centro de cuidado animal que surge con el objetivo de rescatar mascotas que se encuentran en situación de abandono o maltrato.
-                </p>
-                <p>
-                    Una vez que el animal es rescatado, sera atendido por nuestros veterinarios en nuestras instalaciones. 
-                </p>
-                <p>
-                    Cuando se encuentre en perfecto estado de salud será puesto en adopción responsable. 
-                </p>
-            </div>
-        </section>
+      <section id="sobre_nosotros">
+        <div>
+          <div class="h2">
+            <h2>sobre nosotros</h2>
+          </div>
 
-        <section id=mascotas>
-            <div class="h2">
-                <h2>nuestras mascotas</h2>
-            </div>
+          <p>
+            SweetHome es un centro de cuidado animal que surge con el objetivo
+            de rescatar mascotas que se encuentran en situación de abandono o
+            maltrato.
+          </p>
+          <p>
+            Una vez que el animal es rescatado, sera atendido por nuestros
+            veterinarios en nuestras instalaciones.
+          </p>
+          <p>
+            Cuando se encuentre en perfecto estado de salud será puesto en
+            adopción responsable.
+          </p>
+        </div>
+      </section>
 
-            <div id="imagenes">
-                <div id="img">
-                    <img src="./img/22.jpg" alt="">
-                    <img src="./img/07.jpg" alt="">
-                    <img src="./img/16.jpg" alt="">
-                    <img src="./img/11.jpg" alt="">
-                </div>
-                <div id="img2">
-                    <div id="1">
-                        <h3>Milo</h3>
-                        <p>Es un pequeño travieso que disfruta de los juegos a todas horas.</p>
-                        <p>Si lo adoptas, te aseguramos que vas a pasar momentos muy divertidos.</p>
-                    </div>
-                    <div id="2">
-                        <h3>Beto</h3>
-                        <p>Con su mirada tierna conquista el corazón de todos los voluntarios del refugio.</p>
-                        <p>Sueña con formar parte de una nueva familia.</p>
-                    </div>
-                    <div id="3">
-                        <h3>Miles</h3>
-                        <p>Es es más pequeño de una camada de seis hermanitos.</p>
-                        <p>Está esperando una familia que lo llene de muchos mimos.</p>
-                    </div>
-                    <div id="4">
-                        <h3>Tito</h3>
-                        <p>Este cachorro ama los paseos y los ñiños.</p>
-                        <p>Con mucho gratitud seguirá tus pasos a donde vallas.</p>
-                    </div>
-                </div>
+      <section id="mascotas">
+        <div class="h2">
+          <h2>nuestras mascotas</h2>
+        </div>
+
+        <div class="mascotas__galeria">
+          <div class="mascota__card">
+            <img src="./img/22.jpg" alt="Milo" />
+            <div class="mascota__info">
+              <h3>Milo</h3>
+              <p>
+                Es un pequeño travieso que disfruta de los juegos a todas horas.
+              </p>
+              <p>
+                Si lo adoptas, te aseguramos que vas a pasar momentos muy
+                divertidos.
+              </p>
             </div>
-        </section>
+          </div>
+
+          <div class="mascota__card">
+            <img src="./img/07.jpg" alt="Beto" />
+            <div class="mascota__info">
+              <h3>Beto</h3>
+              <p>
+                Con su mirada tierna conquista el corazón de todos los
+                voluntarios del refugio.
+              </p>
+              <p>Sueña con formar parte de una nueva familia.</p>
+            </div>
+          </div>
+
+          <div class="mascota__card">
+            <img src="./img/16.jpg" alt="Miles" />
+            <div class="mascota__info">
+              <h3>Miles</h3>
+              <p>Es el más pequeño de una camada de seis hermanitos.</p>
+              <p>Está esperando una familia que lo llene de muchos mimos.</p>
+            </div>
+          </div>
+
+          <div class="mascota__card">
+            <img src="./img/11.jpg" alt="Tito" />
+            <div class="mascota__info">
+              <h3>Tito</h3>
+              <p>Este cachorro ama los paseos y los niños.</p>
+              <p>Con mucho gratitud seguirá tus pasos a donde vallas.</p>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer>
-        <div class="footer">
-            <p>2022 - Desarrollado por Antonela Borgogno</p>
-        </div>
+      <div class="footer">
+        <p>2022 - Desarrollado por Antonela Borgogno</p>
+      </div>
     </footer>
 
-    <script src = "js/index.js" type="module"></script>
-
-    <script>
-        function mouseOver(){
-            document.getElementById("demo").style.color ="rgb(196, 117, 13)";
-            document.getElementById("demo").style.background ="white";
-            document.getElementById("demo").style.fontWeight="bolder";
-        }
-
-        function mouseOut(){
-            document.getElementById("demo").style.color = "white";
-            document.getElementById("demo").style.background ="rgb(196, 117, 13)";
-        }
-    </script>
-</body>
+    <script src="js/index.js" type="module"></script>
+  </body>
 </html>

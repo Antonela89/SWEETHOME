@@ -1,4 +1,3 @@
-
 export const animationRedes = () => {
     const imagenes = document.querySelectorAll('.imagen');
     console.log(imagenes);
