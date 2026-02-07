@@ -1,4 +1,4 @@
-<img width="1920" height="1008" alt="imagen" src="https://github.com/user-attachments/assets/425876e7-8c3f-42d8-8224-63f58e0cd934" /># 🏠 SWEETHOME - Real Estate Landing Page
+# 🏠 SWEETHOME - Real Estate Landing Page
 
 ¡Bienvenido a **SWEETHOME**! Este es uno de mis primeros proyectos de desarrollo web, donde me enfoqué en crear una interfaz moderna, atractiva y funcional para una plataforma de bienes raíces.
 
@@ -31,7 +31,8 @@ SWEETHOME/
 ```
 
 ## 📸 Capturas de Pantalla
-![SWEETHOME]('/img/Captura_de_pantalla_2026-02-07_191606.png')
+<img width="1920" height="1008" alt="imagen" src="https://github.com/user-attachments/assets/425876e7-8c3f-42d8-8224-63f58e0cd934" />
+![SWEETHOME]('/img/SweetHome.png')
 
 ## 🚀 Cómo ver el proyecto
 Puedes clonar este repositorio y abrir el archivo index.html en tu navegador:
