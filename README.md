@@ -31,8 +31,7 @@ SWEETHOME/
 ```
 
 ## 📸 Capturas de Pantalla
-<img width="1920" height="1008" alt="imagen" src="https://github.com/user-attachments/assets/425876e7-8c3f-42d8-8224-63f58e0cd934" />
-![SWEETHOME]('/img/SweetHome.png')
+<img width="1920" height="1008" alt="imagen" src="./img/SweetHome.png" />
 
 ## 🚀 Cómo ver el proyecto
 Puedes clonar este repositorio y abrir el archivo index.html en tu navegador:
