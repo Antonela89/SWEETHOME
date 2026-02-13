@@ -2,11 +2,11 @@
 
 ¡Bienvenido a **SWEETHOME**! Este proyecto nace de la idea de conectar animales que buscan un hogar con personas dispuestas a darles una segunda oportunidad. Es una landing page moderna y emocional diseñada para facilitar el proceso de adopción.
 
-🚀 ## Sobre el Proyecto
+ ## 🚀 Sobre el Proyecto 
 
 SWEETHOME es una plataforma diseñada para visibilizar a mascotas en situación de refugio, mostrar los beneficios de la adopción responsable y proporcionar un canal directo de contacto para futuros adoptantes. El objetivo principal fue practicar la maquetación web semántica y el diseño orientado a la experiencia de usuario (UX).
 
-✨ ## Características principales
+## ✨ Características principales 
 
 *   **Galería de Mascotas:** Sección visual para conocer a los perros y gatos que buscan hogar.
 *   **Diseño Responsivo:** Optimizado para que los usuarios puedan ver a los animalitos desde móviles, tablets o computadoras.
@@ -14,7 +14,7 @@ SWEETHOME es una plataforma diseñada para visibilizar a mascotas en situación 
 *   **Formulario de Contacto:** Un proceso simplificado para solicitar información sobre una mascota específica.
 *   **Llamadas a la Acción (CTA):** Botones claros para incentivar la adopción y el voluntariado.
 
-🛠️ ## Tecnologías utilizadas
+## 🛠️ Tecnologías utilizadas 
 
 Para este proyecto utilicé las siguientes herramientas:
 
@@ -23,7 +23,7 @@ Para este proyecto utilicé las siguientes herramientas:
 *   **Google Fonts:** Tipografía cálida y legible (Montserrat/Poppins).
 *   **Font Awesome:** Iconografía para representar salud, edad y cuidados.
 
-📂 ## Estructura del Repositorio
+## 📂 Estructura del Repositorio 
 
 ```text
 SWEETHOME/
