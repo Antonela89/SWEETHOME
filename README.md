@@ -1,32 +1,35 @@
-# 🏠 SWEETHOME - Real Estate Landing Page
+# SWEETHOME - Adopción de Mascotas 🐾
 
-¡Bienvenido a **SWEETHOME**! Este es uno de mis primeros proyectos de desarrollo web, donde me enfoqué en crear una interfaz moderna, atractiva y funcional para una plataforma de bienes raíces.
+¡Bienvenido a **SWEETHOME**! Este proyecto nace de la idea de conectar animales que buscan un hogar con personas dispuestas a darles una segunda oportunidad. Es una landing page moderna y emocional diseñada para facilitar el proceso de adopción.
 
-## 🚀 Sobre el Proyecto
+🚀 ## Sobre el Proyecto
 
-SWEETHOME es una landing page diseñada para mostrar propiedades de lujo, servicios inmobiliarios y testimonios de clientes. El objetivo principal fue practicar la maquetación web, el uso de Flexbox/Grid y la organización de estilos CSS.
+SWEETHOME es una plataforma diseñada para visibilizar a mascotas en situación de refugio, mostrar los beneficios de la adopción responsable y proporcionar un canal directo de contacto para futuros adoptantes. El objetivo principal fue practicar la maquetación web semántica y el diseño orientado a la experiencia de usuario (UX).
 
-### ✨ Características principales:
-- **Diseño Responsivo:** Adaptado para diferentes tamaños de pantalla (móviles, tablets y desktop).
-- **Interfaz Moderna:** Uso de tipografías limpias y una paleta de colores profesional.
-- **Secciones Clave:** Hero section con llamada a la acción, galería de propiedades, servicios y sección de contacto.
+✨ ## Características principales
 
-## 🛠️ Tecnologías utilizadas
+*   **Galería de Mascotas:** Sección visual para conocer a los perros y gatos que buscan hogar.
+*   **Diseño Responsivo:** Optimizado para que los usuarios puedan ver a los animalitos desde móviles, tablets o computadoras.
+*   **Historias de Éxito:** Espacio dedicado a mostrar los "finales felices" de mascotas ya adoptadas.
+*   **Formulario de Contacto:** Un proceso simplificado para solicitar información sobre una mascota específica.
+*   **Llamadas a la Acción (CTA):** Botones claros para incentivar la adopción y el voluntariado.
+
+🛠️ ## Tecnologías utilizadas
 
 Para este proyecto utilicé las siguientes herramientas:
 
-* **HTML5:** Estructura semántica del sitio.
-* **CSS3:** Estilos personalizados, animaciones y diseño responsivo.
-* **Google Fonts:** Para una tipografía elegante y legible.
-* **Font Awesome:** Iconografía para los detalles del sitio.
+*   **HTML5:** Estructura semántica (header, section, article, footer).
+*   **CSS3:** Flexbox y CSS Grid para el diseño de la galería y la estructura responsiva.
+*   **Google Fonts:** Tipografía cálida y legible (Montserrat/Poppins).
+*   **Font Awesome:** Iconografía para representar salud, edad y cuidados.
 
-## 📂 Estructura del Repositorio
+📂 ## Estructura del Repositorio
 
 ```text
 SWEETHOME/
-├── css/            # Archivos de estilos (main.css, etc.)
-├── img/            # Recursos visuales y fotografías de propiedades
-├── index.html      # Archivo principal de la landing page
+├── css/            # Estilos personalizados (main.css, responsive.css)
+├── img/            # Fotografías de mascotas y recursos visuales
+├── index.html      # Estructura principal de la plataforma
 └── README.md       # Documentación del proyecto
 ```
 
